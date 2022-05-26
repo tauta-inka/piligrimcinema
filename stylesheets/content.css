@@ -1,0 +1,114 @@
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 136px;
+  background: white;
+border-bottom: 3px solid black;
+}
+
+.m1 {
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 700px;
+}
+
+.m0 {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+a {
+  text-decoration: none;
+}
+
+#logo {
+  background-image: url("../img/logo.svg");
+}
+
+#timetable {
+  background-image: url("../img/timetable.svg");
+}
+
+#merch {
+  background-image: url("../img/merch.svg");
+}
+
+#sparks{
+  background-image: url("../img/sparks.svg");
+}
+
+#card {
+  background-image: url("../img/card.svg");
+}
+
+.icon-glav {
+  width: 281px;
+ height: 136px;
+ /* display: block; */
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-position: 0 0;
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+}
+
+.icon-menu {
+  width: 118px;
+ height: 136px;
+margin-left: 2px;
+margin-top: 4px;
+ /* display: block; */
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-position: 0 0;
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+}
+
+.squareblock {
+  width: 123px;
+ height: 136px;
+ /* display: block; */
+ position: relative;
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+  border-left: 1.5px solid black;
+ border-right: 1.5px solid black;
+}
+
+.recblock {
+  width: 187px;
+ height: 136px;
+ /* display: block; */
+ position: relative;
+ display: block;
+ justify-content: center;
+ align-items: center;
+  border-left: 1.5px solid black;
+}
+
+.side-button {
+  width: 187px;
+  height: 68px;
+  text-decoration: none;
+  
+}
+
+.vline {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  height: 136px;
+  width: 1.5px;
+}
