@@ -1,3 +1,14 @@
+/* Обычный */
+@font-face {
+	font-family: 'fugue regular';
+	src: local('fugue regular'), url(/fonts/fugue_regular.otf);
+}
+
+/* Жирный */
+@font-face {
+	font-family: 'FontName bold';
+	src: local('Font Name'), url(/fonts/font-bold.ttf);
+}
 nav {
   position: relative;
   display: flex;
@@ -10,8 +21,106 @@ nav {
 border-bottom: 3px solid black;
 }
 
-.m1 {
+.titleblock {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  border-bottom: 1.5px solid black;
+}
+.timetableblock {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
 
+h1 {
+  font-family: 'fugue regular';
+	font-size: 85px;
+  color: black;
+  padding-left: 2vw;
+  padding-top: 1%;
+}
+
+h2 {
+  font-family: 'fugue regular';
+  font-size: 134px;
+  color: black;
+  width: 26vw;
+}
+
+h3 {
+  font-family: 'fugue regular';
+  font-size: 25px;
+  color: black;
+}
+
+.time {
+
+  font-family: 'fugue regular';
+  font-size: 25px;
+  height: 10vh;
+  color: black;
+  margin-left: 2vw;
+}
+
+h4 {
+  font-family: 'fugue regular';
+  font-size: 16px;
+  color: black;
+  margin-top: 2vh;
+}
+.ttblock2 {
+  position: relative;
+  display: inline-block;
+  width: 28vw;
+  height: inherit;
+  padding-top: 1vw;
+}
+.ttblock1 {
+  position: relative;
+  display: inline-block;
+  width: 30vw;
+  height: inherit;
+  padding-left: 2vw;
+  margin-bottom: 20vh;
+}
+.ttblock3 {
+  position: relative;
+  display: inline-block;
+  width: 42vw;
+  height: inherit;
+  padding-top: 2vh;
+  padding-right: 2vw;
+}
+.timeblock {
+  position: relative;
+  display: flex;
+  height: inherit;
+  justify-content: flex-end;
+}
+.butticketblock {
+  position: relative;
+  display: flex;
+  height: inherit;
+  justify-content: flex-end;
+}
+
+.butticket {
+  border-radius: 20px;
+  background-color: #9CC74E;
+  text-decoration: none;
+  width: 190px;
+  height: 40px;
+  border: none;
+  font-family: 'fugue regular';
+  font-size: 18px;
+  color: white;
+
+}
+.m1 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -29,6 +138,7 @@ a {
 
 #logo {
   background-image: url("../img/logo.svg");
+
 }
 
 #timetable {
@@ -97,14 +207,53 @@ margin-top: 4px;
  align-items: center;
   border-left: 1.5px solid black;
 }
-
-.side-button {
-  width: 187px;
-  height: 68px;
-  text-decoration: none;
-  
+.buttext {
+  font-family: 'fugue regular';
+	font-size: 14px;
+  text-align: center;
+  color: black;
+  padding-top: 45%;
+}
+.buttext1 {
+  font-family: 'fugue regular';
+	font-size: 14px;
+  text-align: center;
+  color: black;
 }
 
+.buttext2 {
+  font-family: 'fugue regular';
+	font-size: 14px;
+  text-align: center;
+  color: black;
+  padding-top: 38%;
+}
+
+.roundbutt {
+  position: relative;
+  margin-left: 1.5px;
+  width: 114px;
+ height: 114px;
+ margin-top: 4px;
+ background-color: white;
+ border-radius: 50%;
+ border: 3px solid black;
+}
+.side-button {
+  width: 187px;
+  height: 66px;
+  text-decoration: none;
+background-color: white;
+  /* border-left: 0 solid black; */
+  border: none;
+}
+
+.gline {
+  position: relative;
+  width: 187px;
+  height: 3px;
+  background-color: black;
+}
 .vline {
   position: relative;
   display: inline-block;
