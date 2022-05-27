@@ -6,8 +6,8 @@
 
 /* Жирный */
 @font-face {
-	font-family: 'FontName bold';
-	src: local('Font Name'), url(/fonts/font-bold.ttf);
+	font-family: 'fugue headline';
+	src: local('fugue headline'), url(/fonts/fugue_headline.otf);
 }
 nav {
   position: relative;
@@ -27,13 +27,17 @@ border-bottom: 3px solid black;
   height: 30vh;
   border-bottom: 1.5px solid black;
 }
-.timetableblock {
+.accordion-item {
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+.accordion-item_trigger, .accordion-item_content {
   position: relative;
   display: flex;
   flex-direction: row;
   width: 100%;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+  /* height: inherit; */
+
 }
 
 h1 {
@@ -49,6 +53,7 @@ h2 {
   font-size: 134px;
   color: black;
   width: 26vw;
+  line-height: 120px;
 }
 
 h3 {
@@ -61,12 +66,11 @@ h3 {
 
   font-family: 'fugue regular';
   font-size: 25px;
-  height: 10vh;
   color: black;
   margin-left: 2vw;
 }
 
-h4 {
+.about-h4 {
   font-family: 'fugue regular';
   font-size: 16px;
   color: black;
@@ -76,39 +80,36 @@ h4 {
   position: relative;
   display: inline-block;
   width: 28vw;
-  height: inherit;
   padding-top: 1vw;
 }
 .ttblock1 {
   position: relative;
   display: inline-block;
-  width: 30vw;
-  height: inherit;
+  width: 28vw;
   padding-left: 2vw;
-  margin-bottom: 20vh;
+  /* margin-bottom: 20vh; */
 }
 .ttblock3 {
   position: relative;
   display: inline-block;
   width: 42vw;
-  height: inherit;
   padding-top: 2vh;
   padding-right: 2vw;
 }
 .timeblock {
   position: relative;
   display: flex;
-  height: inherit;
   justify-content: flex-end;
 }
-.butticketblock {
+/* .butticketblock {
   position: relative;
   display: flex;
-  height: inherit;
   justify-content: flex-end;
-}
+} */
 
 .butticket {
+  display: none;
+  float: right;
   border-radius: 20px;
   background-color: #9CC74E;
   text-decoration: none;
@@ -118,7 +119,8 @@ h4 {
   font-family: 'fugue regular';
   font-size: 18px;
   color: white;
-
+margin-top: 2vh;
+cursor: pointer;
 }
 .m1 {
   display: flex;
@@ -254,10 +256,64 @@ background-color: white;
   height: 3px;
   background-color: black;
 }
+
+.gline1 {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
 .vline {
   position: relative;
   display: inline-block;
   background-color: black;
   height: 136px;
   width: 1.5px;
+}
+.re {
+  display: block;
+  position: relative;
+  height: 150px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 40px;
+  padding-top: 2%;
+  transition: all .4s ease;
+}
+.re-exp {
+  height: 300px;
+}
+.re > div {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+.re-in3 {
+  float: right;
+  padding-right: 2%;
+}
+ .re-in2 > h4 {
+   display: none;
+ }
+
+div.re-in2 {
+  display: inline-block;
+}
+.re.re-exp .re-in2 .re-in3{
+  /* position: relative; */
+  display: inline-block;
+}
+
+
+h4 {
+  font-family: 'fugue regular';
+  font-size: 16px;
+  color: black;
+  margin-top: 2vh;
+}
+
+.visible {
+  display: block !important;
 }

@@ -12,9 +12,24 @@
       <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
       <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
       <script src="javascripts/java-script.js" charset="utf-8"></script>
+      <script type="text/javascript">
+      $(document).ready(function () {
+        $('.re').click(function () {
+          $(this).toggleClass('re-exp');
+          $('.re-in2 > h4').toggleClass('visible');
+          $('.re-in3 > button').toggleClass('visible');
+
+            // $('.re-in2 > h4').css('display', 'block');
+        })
+
+      })
+
+      </script>
   </head>
   <body>
+    <div class="gline1"></div>
     <nav>
+
       <div class="m0">
         <a href="index.html" class="nav-button">
           <i class="icon-glav" id="logo"></i></a>
@@ -44,40 +59,80 @@
 
 
         </nav>
-        <div class="titleblock"><h1>АФИША</h1></div>
 
-        <div class="timetableblock">
+
+        <div class="titleblock"><h1>АФИША</h1></div>
+<!-- <div class="accordion">
+  <div class="accordion-item">
+        <div class="accordion-item_trigger">
           <div class="ttblock1">  <h2>19.05</h2> </div>
           <div class="ttblock2"><h3>Годар. Ретроспектива</h3>
-          <h4>Жан-Люк Годар — один из главных новаторов, экспериментаторов и хули­ганов мирового кино. За свою долгую жизнь он снял 129 фильмов, включая документальные, короткометражные и телевизионные.</div>
+</div>
   <div class="ttblock3">
       <div class="timeblock">
         <div class="time">12:00</div>
         <div class="time">12:00</div>
         <div class="time">12:00</div>
       </div>
+  </div>
+    </div>
 
+
+  <div class="accordion-item_content">
+    <div class="ttblock1"> </div>
+    <div class="ttblock2">
+
+    <div class="about-h4">Жан-Люк Годар — один из главных новаторов, экспериментаторов и хули­ганов мирового кино. За свою долгую жизнь он снял 129 фильмов, включая документальные, короткометражные и телевизионные.</div>
+    </div>
+    <div class="ttblock3">
     <div class="butticketblock">
-      <button class="butticket"><p>КУПИТЬ БИЛЕТ</p></button>
+    <button class="butticket"><p>КУПИТЬ БИЛЕТ</p></button>
     </div>
-  </div>
+    </div>
     </div>
 
-    <div class="timetableblock">
-      <div class="ttblock1">  </div>
-      <div class="ttblock2"><h3>Годар. Ретроспектива</h3>
-      <!-- <h4>Жан-Люк Годар — один из главных новаторов, экспериментаторов и хули­ганов мирового кино. За свою долгую жизнь он снял 129 фильмов, включая документальные, короткометражные и телевизионные.</div> -->
-<div class="ttblock3">
-  <div class="timeblock">
-    <div class="time">12:00</div>
-    <div class="time">12:00</div>
-    <div class="time">12:00</div>
-  </div>
 
-<div class="butticketblock">
-  <button class="butticket"><p>КУПИТЬ БИЛЕТ</p></button>
 </div>
+</div> -->
+
+<div class="re">
+  <div class="re-in1">
+    <h2>22.04</h2>
+  </div>
+  <div class="re-in2">
+    <h3>Годар. Ретроспектива</h3>
+  <h4>Жан-Люк Годар — один из главных новаторов, экспериментаторов и хули­ганов мирового кино. За свою долгую жизнь он снял 129 фильмов, включая документальные, короткометражные и телевизионные.</h4>
+  </div>
+  <div class="re-in3">
+    <div class="timeblock">
+      <div class="time">12:00</div>
+      <div class="time">12:00</div>
+      <div class="time">12:00</div>
+    </div>
+    <!-- <div class="butticketblock"> -->
+    <button class="butticket"><p>КУПИТЬ БИЛЕТ</p></button>
+    <!-- </div> -->
+  </div>
 </div>
+
+<div class="re">
+  <div class="re-in1">
+    <h2>22.04</h2>
+  </div>
+  <div class="re-in2">
+    <h3>Годар. Ретроспектива</h3>
+  <h4>Жан-Люк Годар — один из главных новаторов, экспериментаторов и хули­ганов мирового кино. За свою долгую жизнь он снял 129 фильмов, включая документальные, короткометражные и телевизионные.</h4>
+  </div>
+  <div class="re-in3">
+    <div class="timeblock">
+      <div class="time">12:00</div>
+      <div class="time">12:00</div>
+      <div class="time">12:00</div>
+    </div>
+    <!-- <div class="butticketblock"> -->
+    <button class="butticket"><p>КУПИТЬ БИЛЕТ</p></button>
+    <!-- </div> -->
+  </div>
 </div>
 
 
