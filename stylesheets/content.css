@@ -13,6 +13,96 @@
 body {
 	margin-top: 136px;
 }
+
+.overlay {width: 100%; height:100%; display:block;}
+	#nubexDiv {
+		top: 0; bottom: 0; left: 0; right: 0;
+		position: fixed;
+		overflow: hidden;
+	}
+	#nubexVideo {
+		top: 0; left: 0;
+		position: absolute;
+		/* width: auto; height: auto; */
+		min-width: 100%;
+		min-height: 100%;
+		/* width: 100%;
+		height: 100%; */
+	}
+
+.tablichka {
+	position: absolute;
+	right: 8%;
+	top: 22%;
+	width: 28%;
+	height: 55%;
+	z-index: 10;
+}
+.about {
+	position: relative;
+	width: 100%;
+	height: 23%;
+	background-color: white;
+	border: 3px solid black;
+	margin-bottom: 2%;
+}
+
+.about:hover {
+background-image: url("../img/pattern.png");
+	cursor: pointer;
+}
+
+.about:hover .mainmenu {
+color: white;
+	/* letter-spacing: 0.06rem; */
+	cursor: pointer;
+}
+
+.afisha {
+	position: relative;
+	width: 100%;
+	height: 20%;
+	background-color: white;
+	border: 3px solid black;
+	margin-bottom: 2%;
+}
+
+.arrow {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/arrow.svg");
+	background-repeat: no-repeat;
+}
+.mainmenu {
+	position: relative;
+	font-family: 'fugue regular';
+  font-size: 30px;
+  color: black;
+	width: 70%;
+	padding-top: 11%;
+	padding-left: 7%;
+
+}
+
+.b {
+	padding-top: 8%;
+	padding-left: 7%;
+}
+
+.c {
+	padding-top: 7%;
+	padding-left: 7%;
+}
+.map {
+	position: relative;
+	width: 100%;
+	height: 25%;
+	background-color: white;
+	border: 3px solid black;
+}
 nav {
   position: relative;
   display: flex;
@@ -48,7 +138,7 @@ border-top: 3px solid black;
 	position: relative;
 	width: 50vw;
 	height: 200vh;
-	background-color: green;
+	background-color: #0000;
 }
 .titleblock {
   position: relative;
@@ -66,7 +156,6 @@ border-top: 3px solid black;
   flex-direction: row;
   width: 100%;
   /* height: inherit; */
-
 }
 
 h1 {
@@ -150,6 +239,10 @@ h3 {
   color: white;
 margin-top: 2vh;
 cursor: pointer;
+}
+
+.butticket:hover {
+	background-color: #F195BC;
 }
 .m1 {
   display: flex;
@@ -272,23 +365,29 @@ margin-top: 4px;
 }
 
 .roundbutt:hover {
-	background-color: red;
+	animation: trafficlight 1s 1 forwards;
 }
 
 .roundbutt:active {
-	background-color: yellow;
-	animation: trafficlight 0.2s 1;
+	background-color: green !important;
 }
 
-.roundbutt:focus {
+.roundbutt:enabled {
 	background-color: black;
 }
 
+.side-button:hover {
+	background-color: black;
+}
+
+.side-button:hover .buttext1{
+	color: white;
+}
 @keyframes trafficlight {
-	0% {	background-color: yellow;}
-	40% {	background-color: yellow;}
-	50% {	background-color: green;}
-	100% {	background-color: green;}
+	0% {	background-color: red;}
+	40% {	background-color: red;}
+	50% {	background-color: yellow;}
+	100% {	background-color: yellow;}
 
 }
 /* .roundbutt:enabled {
@@ -296,7 +395,7 @@ margin-top: 4px;
 } */
 .side-button {
   width: 187px;
-  height: 66px;
+  height: 67px;
   text-decoration: none;
 background-color: white;
   /* border-left: 0 solid black; */
