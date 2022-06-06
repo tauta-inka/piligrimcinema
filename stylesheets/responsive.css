@@ -1,5 +1,8 @@
 @media only screen and (min-width: 1920px) {
   /* Desktop */
+  .titleblock {
+    border-bottom: 1.5px solid black;
+  }
   .squareblock {
     width: 123px;
    height: 136px;
@@ -12,20 +15,84 @@
  height: 114px;
 }
 
+.re, .ae {
+
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+
 
 .roundbutt {
   margin-top: 4px;
   border: 3px solid black;
 }
 .buttext {
-  font-family: 'fugue regular';
+
 	font-size: 14px;
   text-align: center;
   color: black;
   padding-top: 45%;
 }
+
+.about {
+	position: relative;
+
+  width:25vw;
+	height: 12vh;
+	background-color: white;
+	border: 3px solid black;
+	margin-bottom: 2%;
+
+}
+
+.mainmenu {
+  font-size: 50px;
+
+}
+.a {
+	padding-top: 4vh;
+	padding-left: 2vw;
+	display: inline-block;
+}
+.b {
+	padding-top: 2vh;
+	padding-left: 2vw;
+
+}
+.tablichka {
+	position: absolute;
+	right: 2%;
+	top: 22%;
+	width: 28%;
+	height: 55%;
+	z-index: 10;
+}
+.afisha {
+	position: relative;
+	display: block;
+  width:25vw;
+  height: 8vh;
+	background-color: white;
+	border: 3px solid black;
+	margin-bottom: 2%;
+}
+
+.map {
+	position: relative;
+	display: block;
+  width:25vw;
+	height: 12vh;
+	background-color: white;
+	border: 3px solid black;
+}
+
+.arrow {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
 .buttext1 {
-  font-family: 'fugue regular';
+
 	font-size: 14px;
   text-align: center;
   color: black;
@@ -41,7 +108,7 @@
 }
 
 .buttext2 {
-  font-family: 'fugue regular';
+
 	font-size: 14px;
   text-align: center;
   color: black;

@@ -1,13 +1,57 @@
 /* Обычный */
-@font-face {
+/* @font-face {
 	font-family: 'fugue regular';
 	src: local('fugue regular'), url(/fonts/fugue_regular.otf);
 }
 
-/* Жирный */
 @font-face {
-	font-family: 'fugue headline';
-	src: local('fugue headline'), url(/fonts/fugue_headline.otf);
+	font-family: 'Fugue Headline';
+	src: local('Fugue Headline'), url(/fonts/fugue_headline.otf);
+} */
+
+@font-face {
+    font-family: 'fugueheadline';
+    src: url('fugue_headline-webfont.woff2') format('woff2'),
+         url('fugue_headline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fuguemono';
+    src: url('fugue_mono-webfont.woff2') format('woff2'),
+         url('fugue_mono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fugueitalic';
+    src: url('fugue_regular_italic-webfont.woff2') format('woff2'),
+         url('fugue_regular_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fugueregular';
+    src: url('fugue_regular-webfont.woff2') format('woff2'),
+         url('fugue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
@@ -16,7 +60,7 @@ body {
 
 .overlay {width: 100%; height:100%; display:block;}
 	#nubexDiv {
-		top: 100px; bottom: 0; left: 0; right: 0;
+		top: 50px; bottom: 0; left: 0; right: 0;
 		position: fixed;
 		overflow: hidden;
 	}
@@ -31,15 +75,8 @@ body {
 		height: 100%; */
 	}
 
-.tablichka {
-	position: absolute;
-	right: 8%;
-	top: 22%;
-	width: 28%;
-	height: 55%;
-	z-index: 10;
-}
-.about {
+
+/* .about {
 	position: relative;
 
 	width: 100%;
@@ -48,10 +85,33 @@ body {
 	border: 3px solid black;
 	margin-bottom: 2%;
 
-}
+} */
+
 
 .about:hover {
 background-image: url("../img/pattern.png");
+background-repeat: no-repeat;
+background-size: cover;
+/* cursor:	url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562029/cursor-worm_kij6gi.png'), auto; */
+/* cursor: local("carsign.png"),  url(/img/carsign.png);
+ */
+ cursor: url('../img/carsign.png'), auto;
+}
+
+.afisha:hover {
+background-image: url("../img/pattern.png");
+background-repeat: no-repeat;
+background-size: cover;
+/* cursor:	url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562029/cursor-worm_kij6gi.png'), auto; */
+/* cursor: local("carsign.png"),  url(/img/carsign.png);
+ */
+ cursor: url('../img/carsign.png'), auto;
+}
+
+.map:hover {
+background-image: url("../img/pattern.png");
+background-repeat: no-repeat;
+background-size: cover;
 /* cursor:	url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562029/cursor-worm_kij6gi.png'), auto; */
 /* cursor: local("carsign.png"),  url(/img/carsign.png);
  */
@@ -60,7 +120,6 @@ background-image: url("../img/pattern.png");
 
 .rounded
 {
-
   width: 100px;
   height: 100px;
 	background-image: url("../img/carsign.png");
@@ -70,12 +129,12 @@ background-image: url("../img/pattern.png");
 	z-index: 9999;
 }
 
-.about:hover .mainmenu {
+.about:hover .mainmenu.a, .afisha:hover .mainmenu.b, .map:hover .mainmenu.c{
 color: white;
 	/* letter-spacing: 0.06rem; */
 }
 
-.afisha {
+/* .afisha {
 	position: relative;
 	display: block;
 	width: 100%;
@@ -83,25 +142,98 @@ color: white;
 	background-color: white;
 	border: 3px solid black;
 	margin-bottom: 2%;
+} */
+/*
+.about {
+	position: relative;
+	width:340px;
+	height: 90px;
+	background-color: white;
+	border: 2px solid black;
+	margin-bottom: 2%;
+
 }
 
-.arrow {
+.afisha {
+	position: relative;
+	display: block;
+	width:340px;
+	height: 90px;
+	background-color: white;
+	border: 2px solid black;
+	margin-bottom: 2%;
+}
+
+.map {
+	position: relative;
+	display: block;
+	width:340px;
+	height: 90px;
+	background-color: white;
+	border: 2px solid black;
+} */
+
+.tablichka {
 	position: absolute;
-	width: 50px;
-	height:50px;
+	right: 8%;
+	top: 22%;
+	width: 28%;
+	height: 55%;
+	z-index: 10;
+}
+
+.about {
+	position: relative;
+	width:30vw;
+	height: 15vh;
+	background-color: white;
+	border: 2px solid black;
+	margin-bottom: 2%;
+
+}
+
+.afisha {
+	position: relative;
+	display: block;
+	width:30vw;
+	height: 10vh;
+	background-color: white;
+	border: 2px solid black;
+	margin-bottom: 2%;
+}
+
+.map {
+	position: relative;
+	display: block;
+	width:30vw;
+	height: 15vh;
+	background-color: white;
+	border: 2px solid black;
+}
+.arrow, .arrow2, .arrow3 {
+	position: absolute;
+	width: 30px;
+	height:30px;
 	background-image: url("../img/arrow.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	right: 6px;
 	bottom: 6px;
+	transform: rotate(180deg);
+}
+.arrow3 {
+	transform: rotate(0deg);
+}
+.arrow2 {
+	transform: rotate(-45deg);
 }
 
-.about:hover .arrow {
+.about:hover .arrow, .afisha:hover .arrow2, .map:hover .arrow3{
  filter: invert(100%);
 }
 .mainmenu {
 	position: relative;
-	font-family: 'fugue regular';
+	font-family: 'fugueregular';
   font-size: 30px;
   color: black;
 	width: 60%;
@@ -111,29 +243,22 @@ color: white;
 }
 
 .a {
-	padding-top: 11%;
-	padding-left: 7%;
+	padding-top: 5vh;
+	padding-left: 2vw;
 	display: inline-block;
 
 }
 .b {
-	padding-top: 11%;
-	padding-left: 7%;
+	padding-top: 3vh;
+	padding-left: 2vw;
 
 }
 
 .c {
-	padding-top: 7%;
-	padding-left: 7%;
+	padding-top: 3vh;
+	padding-left: 2vw;
 }
-.map {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 25%;
-	background-color: white;
-	border: 3px solid black;
-}
+
 nav {
   position: relative;
   display: flex;
@@ -171,11 +296,12 @@ border-top: 2px solid black;
 	height: 200vh;
 	background-color: #0000;
 }
+
 .titleblock {
   position: relative;
   width: 100%;
   height: 20vh;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1px solid black;
 }
 .accordion-item {
   border-top: 1.5px solid black;
@@ -190,15 +316,18 @@ border-top: 2px solid black;
 }
 
 h1 {
-  font-family: 'fugue regular';
-	font-size: 85px;
+  font-family: 'fugue headline', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	/* font-style: normal; */
+	font-size: 88px;
   color: black;
   padding-left: 2vw;
   padding-top: 1%;
 }
 
 h2 {
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
   font-size: 134px;
   color: black;
   width: 26vw;
@@ -206,21 +335,21 @@ h2 {
 }
 
 h3 {
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
   font-size: 25px;
   color: black;
 }
 
 .time {
 
-  font-family: 'fugue regular';
+  font-family: 'fugueregular', sans-serif;
   font-size: 25px;
   color: black;
   margin-left: 2vw;
 }
 
 .about-h4 {
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
   font-size: 16px;
   color: black;
   margin-top: 2vh;
@@ -265,7 +394,7 @@ h3 {
   width: 190px;
   height: 40px;
   border: none;
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
   font-size: 18px;
   color: white;
 margin-top: 2vh;
@@ -363,21 +492,21 @@ margin-top: 4px;
   border-left: 1px solid black;
 }
 .buttext {
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
 	font-size: 12px;
   text-align: center;
   color: black;
   padding-top: 45%;
 }
 .buttext1 {
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
 	font-size: 12px;
   text-align: center;
   color: black;
 }
 
 .buttext2 {
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
 	font-size: 12px;
   text-align: center;
   color: black;
@@ -409,6 +538,7 @@ margin-top: 4px;
 
 .side-button:hover {
 	background-color: black;
+	cursor: pointer;
 	/* border-bottom: 2px solid black; */
 }
 
@@ -459,8 +589,8 @@ background-color: white;
   display: block;
   position: relative;
   height: 150px;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   padding-top: 2%;
   transition: all .4s ease;
 }
@@ -468,8 +598,8 @@ background-color: white;
   display: block;
   position: relative;
   height: 50px;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   padding-top: 2%;
   transition: all .4s ease;
 }
@@ -500,7 +630,7 @@ div.re-in2 {
 
 
 h4 {
-  font-family: 'fugue regular';
+  font-family: 'fugue regular', sans-serif;
   font-size: 16px;
   color: black;
   margin-top: 2vh;
