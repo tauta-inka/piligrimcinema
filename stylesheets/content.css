@@ -789,7 +789,26 @@ padding-left: 2vw;
 	height: 47vh;
 }
 
+.s1 {
+	/* padding-top: 30vh; */
+	position: relative;
+	display: block;
+	width: 100%;
+}
 .s2 {
+	padding-top: 30vh;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.s3 {
+	/* padding-top: 7vh; */
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.s4 {
 	padding-top: 30vh;
 	position: relative;
 	display: block;
@@ -835,4 +854,39 @@ padding-left: 2vw;
 	background-image: url("../img/secondfl2.png");
 	width: 35vw;
 	height: 40vh;
+}
+
+#fl2 {
+	position: relative;
+	/* display: inline-block; */
+	background-image: url("../img/fl2.png");
+	background-size: cover;
+	height: 47vh;
+}
+
+#tent1 {
+	position: relative;
+	/* display: inline-block; */
+	background-image: url("../img/tent1.png");
+	background-size: cover;
+	height: 47vh;
+}
+
+#tickets {
+	position: relative;
+	background-size: cover;
+	/* display: inline-block; */
+	background-image: url("../img/tickets.png");
+	width: 60vw;
+margin-top: 6vh;
+	height: 80vh;
+}
+
+
+.last {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 500px;
+	background-color: green;
 }
