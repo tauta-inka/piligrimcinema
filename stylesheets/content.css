@@ -5,13 +5,15 @@
 }
 
 @font-face {
-	font-family: 'Fugue Headline';
-	src: local('Fugue Headline'), url(/fonts/fugue_headline.otf);
+	font-family: 'fugue headline';
+	src: local('fugue headline'), url(/fonts/fugue_headline.otf);
 } */
 
+
+/*
 @font-face {
     font-family: 'fugueheadline';
-    src: url('fugue_headline-webfont.woff2') format('woff2'),
+    src: local('fugue headline'), url("/fonts/fugue_headline-webfont.woff2") format('woff2'),
          url('fugue_headline-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -52,7 +54,7 @@
     font-weight: normal;
     font-style: normal;
 
-}
+} */
 
 body {
 	margin-top: 136px;
@@ -233,7 +235,7 @@ color: white;
 }
 .mainmenu {
 	position: relative;
-	font-family: 'fugueregular';
+	font-family: 'fugue_regular';
   font-size: 30px;
   color: black;
 	width: 60%;
@@ -316,18 +318,18 @@ border-top: 2px solid black;
 }
 
 h1 {
-  font-family: 'fugue headline', sans-serif;
+  font-family: 'fugue_headline';
 	font-weight: normal;
 	font-style: normal;
 	/* font-style: normal; */
-	font-size: 88px;
+	font-size: 96px;
+	/* line-height: 96px; */
   color: black;
   padding-left: 2vw;
-  padding-top: 1%;
 }
 
 h2 {
-  font-family: 'fugue regular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
   font-size: 134px;
   color: black;
   width: 26vw;
@@ -335,21 +337,21 @@ h2 {
 }
 
 h3 {
-  font-family: 'fugue regular', sans-serif;
-  font-size: 25px;
+  font-family: 'fugue_regular', sans-serif;
+  font-size: 20px;
   color: black;
 }
 
 .time {
 
-  font-family: 'fugueregular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
   font-size: 25px;
   color: black;
   margin-left: 2vw;
 }
 
 .about-h4 {
-  font-family: 'fugue regular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
   font-size: 16px;
   color: black;
   margin-top: 2vh;
@@ -394,7 +396,7 @@ h3 {
   width: 190px;
   height: 40px;
   border: none;
-  font-family: 'fugue regular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
   font-size: 18px;
   color: white;
 margin-top: 2vh;
@@ -492,21 +494,21 @@ margin-top: 4px;
   border-left: 1px solid black;
 }
 .buttext {
-  font-family: 'fugue regular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
 	font-size: 12px;
   text-align: center;
   color: black;
   padding-top: 45%;
 }
 .buttext1 {
-  font-family: 'fugue regular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
 	font-size: 12px;
   text-align: center;
   color: black;
 }
 
 .buttext2 {
-  font-family: 'fugue regular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
 	font-size: 12px;
   text-align: center;
   color: black;
@@ -573,11 +575,30 @@ background-color: white;
 
 .gline1 {
   position: relative;
+	display: block;
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: black;
 }
 
+.gline2{
+  position: relative;
+	display: block;
+  width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+  height: 2px;
+  background-color: black;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.lines {
+	position: relative;
+	display: block;
+	margin-top: -21vh;
+	z-index: -2;
+}
 .vline {
   position: relative;
   display: inline-block;
@@ -630,7 +651,7 @@ div.re-in2 {
 
 
 h4 {
-  font-family: 'fugue regular', sans-serif;
+  font-family: 'fugue_regular', sans-serif;
   font-size: 16px;
   color: black;
   margin-top: 2vh;
@@ -638,4 +659,180 @@ h4 {
 
 .visible {
   display: block !important;
+}
+
+h5 {
+	font-family: 'fugue_regular', sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+h6 {
+	font-family: 'fugue_regular', sans-serif;
+	font-size: 16px;
+	color: black;
+	padding-left: 2vw;
+}
+
+.before-p {
+	position: relative;
+	display: inline-block;
+		text-align: right;
+	width: 35vw;
+	padding-right: 2vw;
+	/* height: 20vh; */
+}
+
+.main-p {
+	position: relative;
+	/* float: right; */
+	display: inline-block;
+	width: 35vw;
+	/* margin-top: 10vh; */
+
+}
+
+.descr {
+	position: relative;
+	display: flex;
+	width: 100%;
+	padding-top: 10vh;
+}
+
+.side-nav {
+	position: relative;
+	width: 35vw;
+}
+
+.nav-line {
+	position: relative;
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+.dot {
+	position: absolute;
+	background-color: black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	top: 60vh;
+	left: 33vw;
+
+}
+
+.sticky-section {
+padding-right: 2vw;
+	width: 35vw;
+	position: sticky;
+  top: 2em;
+  min-height: 2em;
+	 position: -webkit-sticky;
+	  align-self: flex-start;
+}
+
+.scroll-section {
+	position: relative;
+	/* display: inline-block; */
+	float: right;
+	width: 60vw;
+}
+.section {
+	position: relative;
+	/* display: inline-block; */
+		display: flex;
+margin-top: 6vh;
+		/* align-content: space-between; */
+	width: 99vw;
+	/* height: 1080px; */
+}
+
+.blank {
+	position: relative;
+display: block;
+	/* float: left; */
+	width: 37vw;
+	height: 55vh;
+}
+.break {
+	position: relative;
+	width: 100%;
+	height: 2%;
+}
+
+.quote {
+	position: relative;
+	display: inline-block;
+padding-top: 6vh;
+padding-bottom: 6vh;
+padding-left: 2vw;
+	float: right;
+	font-family: "fugue_headline", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	text-indent: 35vw;
+}
+#van1 {
+	background-image: url("../img/van1.png");
+	background-size: cover;
+	/* width: 50vw; */
+	height: 47vh;
+}
+
+#hall1 {
+	background-image: url("../img/hall1.png");
+	background-size: cover;
+	/* width: 50vw; */
+	height: 47vh;
+}
+
+.s2 {
+	padding-top: 30vh;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.textpart {
+	position: relative;
+	display: inline-block;
+	width: 70%;
+}
+
+.numb {
+	position: relative;
+	display: inline-block;
+	float: right;
+	padding-right: 2vw;
+
+}
+
+
+.icontainer {
+	position: relative;
+	display: flex;
+	/* width: 98vw; */
+	overflow: hidden;
+	justify-content:flex-end;
+	padding-left: 2vw;
+	padding-right: 1vw;
+}
+#f1 {
+	position: relative;
+	/* display: inline-block; */
+	background-image: url("../img/secondfl.png");
+	background-size: cover;
+	width: 35vw;
+	height: 30vh;
+	margin-right: 2vw;
+}
+#f2 {
+	position: relative;
+	/* display: inline-block; */
+	background-image: url("../img/secondfl2.png");
+	width: 35vw;
+	height: 40vh;
 }

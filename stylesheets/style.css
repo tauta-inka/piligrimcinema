@@ -2,3 +2,15 @@
 @import "layout.css"; /* макет  */
 @import "content.css"; /* контент / содержимое  */
 @import "responsive.css";/* адаптивность */
+@font-face {
+font-family: 'fugue_headline';
+src: url('../fonts/fugue_headline.otf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: 'fugue_regular';
+src: url('../fonts/fugue_regular.otf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
