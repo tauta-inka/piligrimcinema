@@ -798,7 +798,7 @@ background-color: white;
   height: 94px;
   width: 1px;
 }
-.re {
+.re, .de, .fe, .je    {
   display: block;
   position: relative;
   height: 150px;
@@ -807,7 +807,7 @@ background-color: white;
   padding-top: 2%;
   transition: all .4s ease;
 }
-.ae {
+.ae, .be, .ce, .ee, .ge, .he, .ie  {
   display: block;
   position: relative;
   height: 50px;
@@ -816,27 +816,32 @@ background-color: white;
   padding-top: 2%;
   transition: all .4s ease;
 }
-.re-exp, .ae-exp {
+.re-exp, .ae-exp, .be-exp, .ce-exp, .de-exp, .ee-exp, .fe-exp, .ge-exp, .he-exp, .ie-exp, .je-exp   {
   height: 250px;
 }
-.re> div, .ae > div {
+.re> div, .ae > div, .be > div, .ce > div, .de > div, .ee > div, .fe > div, .ge > div, .he > div, .ie > div, .je > div   {
   position: relative;
   display: inline-block;
   width: 30%;
   vertical-align: top;
 }
-.re-in3, .ae-in3 {
+.re-in3, .ae-in3, .be-in3, .ce-in3, .de-in3, .ee-in3, .fe-in3, .ge-in3, .he-in3, .ie-in3, .je-in3  {
   float: right;
   padding-right: 2%;
 }
- .re-in2 > h4, .ae-in2 > h4{
+ .re-in2 > h4, .ae-in2 > h4, .be-in2 > h4, .ce-in2 > h4, .de-in2 > h4, .ee-in2 > h4, .fe-in2 > h4, .ge-in2 > h4, .he-in2 > h4, .ie-in2 > h4, .je-in2 > h4      {
    display: none;
  }
 
+.re-in1 > h2, .de-in1 > h2, .fe-in1 > h2, .je-in1 > h2 {
+	padding-left: 2rem;
+}
 div.re-in2 {
   display: inline-block;
 }
-.re.re-exp .re-in2 .re-in3 .ae .ae-exp .ae-in2 .ae-in3 .ae-in3 {
+.re .re-exp .re-in2 .re-in3 .ae .ae-exp .ae-in2 .ae-in3 .be .be-exp .be-in2 .be-in3  .ce .ce-exp .ce-in2 .ce-in3
+.de .de-exp .de-in2 .de-in3 .ee .ee-exp .ee-in2 .ee-in3 .fe .fe-exp .fe-in2 .fe-in3 .ge .ge-exp .ge-in2 .ge-in3
+.he .he-exp .he-in2 .he-in3 .ie .ie-exp .ie-in2 .ie-in3 .je .je-exp .je-in2 .je-in3  {
   /* position: relative; */
   display: inline-block;
 }

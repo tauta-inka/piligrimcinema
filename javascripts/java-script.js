@@ -13,6 +13,71 @@ $(document).ready(function () {
       // $('.re-in2 > h4').css('display', 'block');
   })
 
+  $('.be').click(function () {
+    $(this).toggleClass('be-exp');
+    $('.be-in2 > h4').toggleClass('visible');
+    $('.be-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+  $('.ce').click(function () {
+    $(this).toggleClass('ce-exp');
+    $('.ce-in2 > h4').toggleClass('visible');
+    $('.ce-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+  $('.de').click(function () {
+    $(this).toggleClass('de-exp');
+    $('.de-in2 > h4').toggleClass('visible');
+    $('.de-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+  $('.ee').click(function () {
+    $(this).toggleClass('ee-exp');
+    $('.ee-in2 > h4').toggleClass('visible');
+    $('.ee-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+  $('.fe').click(function () {
+    $(this).toggleClass('fe-exp');
+    $('.fe-in2 > h4').toggleClass('visible');
+    $('.fe-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+
+  $('.ge').click(function () {
+    $(this).toggleClass('ge-exp');
+    $('.ge-in2 > h4').toggleClass('visible');
+    $('.ge-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+
+  $('.he').click(function () {
+    $(this).toggleClass('he-exp');
+    $('.he-in2 > h4').toggleClass('visible');
+    $('.he-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+  $('.ie').click(function () {
+    $(this).toggleClass('ie-exp');
+    $('.ie-in2 > h4').toggleClass('visible');
+    $('.ie-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+  $('.je').click(function () {
+    $(this).toggleClass('je-exp');
+    $('.je-in2 > h4').toggleClass('visible');
+    $('.je-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
   var header = $('.header'),
 scrollPrev = 0;
 
