@@ -1,60 +1,4 @@
-/* Обычный */
-/* @font-face {
-	font-family: 'fugue regular';
-	src: local('fugue regular'), url(/fonts/fugue_regular.otf);
-}
 
-@font-face {
-	font-family: 'fugue headline';
-	src: local('fugue headline'), url(/fonts/fugue_headline.otf);
-} */
-
-
-/*
-@font-face {
-    font-family: 'fugueheadline';
-    src: local('fugue headline'), url("/fonts/fugue_headline-webfont.woff2") format('woff2'),
-         url('fugue_headline-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'fuguemono';
-    src: url('fugue_mono-webfont.woff2') format('woff2'),
-         url('fugue_mono-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'fugueitalic';
-    src: url('fugue_regular_italic-webfont.woff2') format('woff2'),
-         url('fugue_regular_italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'fugueregular';
-    src: url('fugue_regular-webfont.woff2') format('woff2'),
-         url('fugue_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */
 
 body {
 	margin-top: 136px;
@@ -241,7 +185,7 @@ color: white;
 .mainmenu {
 	position: relative;
 	font-family: 'fugue_regular';
-  font-size: 30px;
+  font-size: 2rem;
   color: black;
 	width: 60%;
 	/* padding-top: 11%;
@@ -493,7 +437,7 @@ h1 {
 	font-weight: normal;
 	font-style: normal;
 	/* font-style: normal; */
-	font-size: 96px;
+	font-size: 6rem;
 	/* line-height: 4rem; */
   color: black;
   padding-left: 2vw;
@@ -501,7 +445,7 @@ h1 {
 
 h2 {
   font-family: 'fugue_regular', sans-serif;
-  font-size: 134px;
+  font-size: 8rem;
   color: black;
   width: 26vw;
   line-height: 120px;
@@ -509,7 +453,7 @@ h2 {
 
 h3 {
   /* font-family: 'fugue_regular', sans-serif; */
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 		font-family: 'fugue_headline', sans-serif;
   color: black;
 }
@@ -853,7 +797,7 @@ div.re-in2 {
 
 h4 {
   font-family: 'fugue_regular', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: black;
   margin-top: 2vh;
 }
@@ -1275,7 +1219,7 @@ margin-top: 6vh;
 }
 .item-title {
 	font-family: 'fugue_headline', sans-serif;
-	font-size: 14px;
+	font-size: 1rem;
 	color: black;
 	text-transform: capitalize;
 }

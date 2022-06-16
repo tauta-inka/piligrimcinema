@@ -1,30 +1,87 @@
 @media only screen and (min-width: 1920px) {
   /* Desktop */
+
+
+  h1 {
+    font-size: 8rem;
+    padding-top: 1rem;
+  }
+
+  .mainmenu {
+    font-size: 2rem;
+  }
+
+.opened {
+  width: 400px;
+}
+  .titleblock3 {
+
+    height: 15vh;
+    /* border-bottom: 1px solid black; */
+  }
+
+  .titleblock3 > h1  {
+    font-size: 8rem;
+  }
   .titleblock {
-    border-bottom: 1.5px solid black;
+    border-bottom: 0.5px solid black;
   }
   .squareblock {
     width: 123px;
-   height: 136px;
-   border-left: 1.5px solid black;
-  border-right: 1.5px solid black;
+   height: 132px;
+   border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
 }
-.roundbutt {
-  margin-left: 1.5px;
+.roundbutt, #side-cart {
+  margin-left: 3.5px;
+      margin-top: 6px;
   width: 114px;
  height: 114px;
 }
-
-.re, .ae {
-
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+#side-cart-btn {
+  margin: 0 5.8rem;
 }
 
+.dot {
+  right: 3rem;
+}
+.dot2 {
+	top: 3.2rem;
+  right: 3rem;
+}
 
-.roundbutt {
-  margin-top: 4px;
-  border: 3px solid black;
+.dot3 {
+	top: 7.5rem;
+  right: 3rem;
+}
+
+.dot4 {
+	top: 12rem;
+  right: 3rem;
+}
+
+.another-h4 {
+  font-size: 1.2rem;
+}
+.cart {
+  width: 435px;
+}
+
+.item-up, .item-down {
+  width: 280px;
+}
+.item-card {
+  padding-left: 2.2rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+.re> div, .ae > div, .be > div, .ce > div, .de > div, .ee > div, .fe > div, .ge > div,
+.he > div, .ie > div, .je > div, .ke > div, .le > div {
+  width: 25%;
+
 }
 .buttext {
 
@@ -40,15 +97,10 @@
   width:25vw;
 	height: 12vh;
 	background-color: white;
-	border: 3px solid black;
 	margin-bottom: 2%;
 
 }
 
-.mainmenu {
-  font-size: 50px;
-
-}
 .a {
 	padding-top: 4vh;
 	padding-left: 2vw;
@@ -73,7 +125,7 @@
   width:25vw;
   height: 8vh;
 	background-color: white;
-	border: 3px solid black;
+
 	margin-bottom: 2%;
 }
 
@@ -83,7 +135,7 @@
   width:25vw;
 	height: 12vh;
 	background-color: white;
-	border: 3px solid black;
+
 }
 
 .arrow {
@@ -117,29 +169,32 @@
 
 .recblock {
   width: 187px;
- height: 136px;
- border-left: 1.5px solid black;
+ height: 132px;
+ border-left: 0.5px solid black;
 }
 nav {
-height: 136px;
-border-bottom: 3px solid black;
-border-top: 3px solid black;
+height: 132px;
+
 }
 .gline {
   position: relative;
   width: 187px;
-  height: 3px;
+
   background-color: black;
 }
 
 .side-button {
-  width: 187px;
-  height: 67px;
+  width: 194px;
+  height: 65.5px;
 }
 
 .vline {
   height: 136px;
-  width: 1.5px;
+  width: 0.5px;
+}
+
+.item-mt {
+font-size: 1.8rem;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
