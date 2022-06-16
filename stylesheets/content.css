@@ -130,7 +130,7 @@ background-size: cover;
   height: 100px;
 	background-image: url("../img/carsign.png");
 	background-size: contain;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
 	z-index: 9999;
 }
@@ -193,7 +193,7 @@ color: white;
 	width:30vw;
 	height: 15vh;
 	background-color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin-bottom: 2%;
 
 }
@@ -204,7 +204,7 @@ color: white;
 	width:30vw;
 	height: 10vh;
 	background-color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin-bottom: 2%;
 }
 
@@ -214,7 +214,7 @@ color: white;
 	width:30vw;
 	height: 15vh;
 	background-color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 }
 .arrow, .arrow2, .arrow3 {
 	position: absolute;
@@ -260,7 +260,7 @@ color: white;
 	top: 0;
 	width:30vw;
 	background-color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 	border-right: none;
 	/* border-top: 1px solid black; */
 	padding-bottom: 2vh;
@@ -278,7 +278,7 @@ color: white;
 	width:290px;
 	height: 100%;
 	background-color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 	border-right: none;
 	/* border-top: 1px solid black; */
 	padding-bottom: 2vh;
@@ -306,10 +306,10 @@ padding-left: 2vw;
 	right: 0;
 	top: 0;
 	/* width: 509px; */
-	width: 317px;
+	width: 316px;
 	height: 100vh;
 	background-color: white;
-	border-left: 2px solid black;
+	border-left: 1px solid black;
 	padding-top: 16vh;
 	/* border-top: 1px solid black; */
 	/* padding-bottom: 2vh; */
@@ -341,7 +341,7 @@ padding-left: 2vw;
 	width:290px;
 	height: 100vh;
 	background-color: white;
-	border: 2px solid black;
+	border: 1px solid black;
 	padding-bottom: 2vh;
 	padding-top: 15vh;
 	padding-left: 2vw;
@@ -434,8 +434,8 @@ nav {
   width: 100%;
   height: 94px;
   background: white;
-border-bottom: 2px solid black;
-border-top: 2px solid black;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
 }
 /* .f-nav {
 	z-index: 9999;
@@ -459,7 +459,7 @@ border-top: 2px solid black;
 .tut {
 	position: relative;
 	width: 50vw;
-	height: 200vh;
+	height: 20vh;
 	background-color: #0000;
 }
 
@@ -467,7 +467,7 @@ border-top: 2px solid black;
   position: relative;
   width: 100%;
   height: 20vh;
-  border-bottom: 1px solid black;
+  border-bottom: 0.5px solid black;
 }
 
 .titleblock2 {
@@ -477,8 +477,8 @@ border-top: 2px solid black;
   /* border-bottom: 1px solid black; */
 }
 .accordion-item {
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .accordion-item_trigger, .accordion-item_content {
   position: relative;
@@ -508,15 +508,16 @@ h2 {
 }
 
 h3 {
-  font-family: 'fugue_regular', sans-serif;
-  font-size: 20px;
+  /* font-family: 'fugue_regular', sans-serif; */
+  font-size: 1.5rem;
+		font-family: 'fugue_headline', sans-serif;
   color: black;
 }
 
 .time {
 
   font-family: 'fugue_regular', sans-serif;
-  font-size: 25px;
+  font-size: 1.2rem;
   color: black;
   margin-left: 2vw;
 }
@@ -630,7 +631,7 @@ background-size: contain;
 .icon-menu {
   width: 118px;
  height: 136px;
-margin-left: 2px;
+margin-left: 1px;
 margin-top: 4px;
  /* display: block; */
  position: relative;
@@ -650,8 +651,8 @@ margin-top: 4px;
  display: inline-block;
  justify-content: center;
  align-items: center;
-  border-left: 1px solid black;
- border-right: 1px solid black;
+  border-left: 0.5px solid black;
+ border-right:  0.5px solid black;
 }
 
 .recblock {
@@ -694,7 +695,7 @@ margin-top: 4px;
  margin-top: 1px;
  background-color: white;
  border-radius: 50%;
- border: 2px solid black;
+ border: 1px solid black;
 }
 
 h7 {
@@ -751,7 +752,7 @@ h7 {
 } */
 .side-button {
   width: 125px;
-  height: 46px;
+  height: 46.5px;
   text-decoration: none;
 background-color: white;
   /* border-left: 0 solid black; */
@@ -761,7 +762,7 @@ background-color: white;
 .gline {
   position: relative;
   width: 125px;
-  height: 2px;
+  height: 1px;
   background-color: black;
 }
 
@@ -769,7 +770,7 @@ background-color: white;
   position: relative;
 	display: block;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background-color: black;
 }
 
@@ -779,7 +780,7 @@ background-color: white;
   width: 100%;
 	overflow-x: hidden;
 	overflow-y: hidden;
-  height: 2px;
+  height: 1px;
   background-color: black;
 	margin-top: 2vh;
 	margin-bottom: 2vh;
@@ -802,34 +803,37 @@ background-color: white;
   display: block;
   position: relative;
   height: 150px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
   padding-top: 2%;
   transition: all .4s ease;
 }
-.ae, .be, .ce, .ee, .ge, .he, .ie  {
+.ae, .be, .ce, .ee, .ge, .he, .ie, .ke, .le  {
   display: block;
   position: relative;
   height: 50px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
   padding-top: 2%;
   transition: all .4s ease;
 }
-.re-exp, .ae-exp, .be-exp, .ce-exp, .de-exp, .ee-exp, .fe-exp, .ge-exp, .he-exp, .ie-exp, .je-exp   {
+.re-exp, .ae-exp, .be-exp, .ce-exp, .de-exp, .ee-exp, .fe-exp, .ge-exp, .he-exp, .ie-exp, .je-exp,
+.ke-exp, .le-exp   {
   height: 250px;
 }
-.re> div, .ae > div, .be > div, .ce > div, .de > div, .ee > div, .fe > div, .ge > div, .he > div, .ie > div, .je > div   {
+.re> div, .ae > div, .be > div, .ce > div, .de > div, .ee > div, .fe > div, .ge > div, .he > div, .ie > div, .je > div,
+ .ke > div, .le > div    {
   position: relative;
   display: inline-block;
   width: 30%;
   vertical-align: top;
 }
-.re-in3, .ae-in3, .be-in3, .ce-in3, .de-in3, .ee-in3, .fe-in3, .ge-in3, .he-in3, .ie-in3, .je-in3  {
+.re-in3, .ae-in3, .be-in3, .ce-in3, .de-in3, .ee-in3, .fe-in3, .ge-in3, .he-in3, .ie-in3, .je-in3, .ke-in3, .le-in3    {
   float: right;
   padding-right: 2%;
 }
- .re-in2 > h4, .ae-in2 > h4, .be-in2 > h4, .ce-in2 > h4, .de-in2 > h4, .ee-in2 > h4, .fe-in2 > h4, .ge-in2 > h4, .he-in2 > h4, .ie-in2 > h4, .je-in2 > h4      {
+ .re-in2 > h4, .ae-in2 > h4, .be-in2 > h4, .ce-in2 > h4, .de-in2 > h4, .ee-in2 > h4, .fe-in2 > h4, .ge-in2 > h4, .he-in2 > h4,
+  .ie-in2 > h4, .je-in2 > h4, .ke-in2 > h4, .le-in2 > h4   {
    display: none;
  }
 
@@ -841,7 +845,7 @@ div.re-in2 {
 }
 .re .re-exp .re-in2 .re-in3 .ae .ae-exp .ae-in2 .ae-in3 .be .be-exp .be-in2 .be-in3  .ce .ce-exp .ce-in2 .ce-in3
 .de .de-exp .de-in2 .de-in3 .ee .ee-exp .ee-in2 .ee-in3 .fe .fe-exp .fe-in2 .fe-in3 .ge .ge-exp .ge-in2 .ge-in3
-.he .he-exp .he-in2 .he-in3 .ie .ie-exp .ie-in2 .ie-in3 .je .je-exp .je-in2 .je-in3  {
+.he .he-exp .he-in2 .he-in3 .ie .ie-exp .ie-in2 .ie-in3 .je .je-exp .je-in2 .je-in3 .le .le-exp .le-in2 .le-in3   {
   /* position: relative; */
   display: inline-block;
 }
@@ -849,10 +853,18 @@ div.re-in2 {
 
 h4 {
   font-family: 'fugue_regular', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   color: black;
   margin-top: 2vh;
 }
+
+
+.another-h4 {
+  font-family: 'fugue_regular', sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
 
 .visible {
   display: block !important;
@@ -867,6 +879,13 @@ h5 {
 h6 {
 	font-family: 'fugue_regular', sans-serif;
 	font-size: 16px;
+	color: black;
+	padding-left: 2vw;
+}
+
+.h-nav {
+	font-family: 'fugue_headline', sans-serif;
+	font-size: 20px;
 	color: black;
 	padding-left: 2vw;
 }
@@ -904,7 +923,7 @@ h6 {
 .nav-line {
 	position: relative;
 	width: 100%;
-	height: 2px;
+	height: 1px;
 	background-color: black;
 	margin-bottom: 2vh;
 	margin-top: 2vh;
@@ -916,9 +935,48 @@ h6 {
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
-	top: 60vh;
-	left: 33vw;
+	top: -1rem;
+	right: 2rem;
 
+}
+
+.dot2 {
+	position: absolute;
+	background-color: black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	top: 2.2rem;
+	right: 2rem;
+
+}
+
+.dot3 {
+	position: absolute;
+	background-color: black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	top: 5.6rem;
+	right: 2rem;
+
+}
+
+.dot4 {
+	position: absolute;
+	background-color: black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	top: 9rem;
+	right: 2rem;
+
+}
+
+.calameo {
+	color: black;
+	text-decoration: underline;
+	text-underline-position: under;
 }
 
 .sticky-section {
@@ -1179,6 +1237,30 @@ margin-top: 6vh;
 	margin-right: 1rem;
 }
 
+#icon-bag {
+	position: relative;
+	display: inline-block;
+	background-size: cover;
+	/* display: inline-block; */
+	background-image: url("../img/bag.png");
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
+#icon-t-shirt {
+	position: relative;
+	display: inline-block;
+	background-size: cover;
+	/* display: inline-block; */
+	background-image: url("../img/t-shirt.png");
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
 .item-card {
 	position: relative;
 	display: flex;
@@ -1242,14 +1324,34 @@ display: block;
 padding-left: 2rem;
 }
 
-#cup2 {
+
+
+.scale {
+	display: inline-block;
 	position: relative;
+
+	 overflow: hidden;
+	 height: 55vh;
+	 width: 30vw;
+}
+
+
+.scale img {
+
+	display: block;
 	/* display: inline-block; */
-	background-image: url("../img/cup2.png");
+	/* background-image: url("../img/cup2.png");
 	background-size: cover;
-	background-position: center;
-	height: 55vh;
-	width: 30vw;
+	background-position: center; */
+
+	  transition: 1s;
+ object-fit: cover;
+}
+
+
+
+.scale img:hover {
+	transform: scale(1.2);
 
 }
 
@@ -1296,9 +1398,10 @@ padding-left: 2rem;
 .items {
 	position: relative;
 	display: flex;
-	width: auto;
+	width: 150vw;
 	justify-content: flex-start;
-	border-top: 2px solid black;
+	border-top: 1px solid black;
+	margin-right: 30vw;
 }
 .merch-title {
 	margin-top: 1rem;
@@ -1310,7 +1413,7 @@ padding-left: 2rem;
 
 .item-mt {
 	font-family: 'fugue_regular', sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: black;
 	/* text-transform: capitalize; */
 }
@@ -1331,6 +1434,26 @@ border: 1px solid black;
 /* letter-spacing: 0.09rem; */
 }
 
+
+#side-cart-btn {
+position: relative;
+justify-content: center;
+	border-radius: 20px;
+	background-color: white;
+	text-decoration: none;
+	width: 260px;
+	height: 40px;
+	border: none;
+	font-family: 'fugue_regular', sans-serif;
+
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+	border: 1px solid black;
+	text-transform: uppercase;
+	margin: 0 1.8rem;
+
+}
 
 .more {
 	position: relative;
@@ -1455,7 +1578,7 @@ cursor: pointer;
 .back-circle, #back-circle {
 	position: relative;
 	display: block;
-	border: 2px solid black;
+	border: 1px solid black;
 background-image: url("../img/strelka.svg");
 	background-repeat: no-repeat;
 	/* background-size: contain; */
@@ -1472,7 +1595,7 @@ background-image: url("../img/strelka.svg");
 .back-circle:hover {
 	transition: all 0.4 ease;
 	outline: 10px solid #9CC74E;
-	outline-offset:-12px;
+	outline-offset:-10px;
 }
 #strelka {
 	position: absolute;
@@ -1572,7 +1695,7 @@ background-image: url("../img/strelka.svg");
      line-height: 30px;
 text-align: center;
 	width: 100px;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin-right: 1rem;
 
 }
@@ -1619,7 +1742,7 @@ background-color: black;
 
 .selected {
 	background-color: #9CC74E;
-	border: 2px solid #9CC74E;
+	border: 1px solid #9CC74E;
 }
 .true-clicked {
 	color: white;
@@ -1641,7 +1764,7 @@ background-color: black;
 text-align: center;
 	height: 170px;
 	width: 310px;
-	border: 2px solid black;
+	border: 1px solid black;
 	border-radius: 140px;
 	background-image: linear-gradient(black, black);
   background-position: 0% 50%;

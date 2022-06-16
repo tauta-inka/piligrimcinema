@@ -78,6 +78,22 @@ $(document).ready(function () {
       // $('.re-in2 > h4').css('display', 'block');
   })
 
+
+  $('.ke').click(function () {
+    $(this).toggleClass('ke-exp');
+    $('.ke-in2 > h4').toggleClass('visible');
+    $('.ke-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
+
+  $('.le').click(function () {
+    $(this).toggleClass('le-exp');
+    $('.le-in2 > h4').toggleClass('visible');
+    $('.le-in3 > button').toggleClass('visible');
+      // $('.re-in2 > h4').css('display', 'block');
+  })
+
   var header = $('.header'),
 scrollPrev = 0;
 
