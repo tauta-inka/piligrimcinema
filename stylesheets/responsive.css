@@ -67,7 +67,7 @@
   width: 435px;
 }
 
-.item-up, .item-down {
+.item-up .item-down {
   width: 280px;
 }
 .item-card {
@@ -132,7 +132,7 @@ h3 {
 .map {
 	position: relative;
 	display: block;
-  width:25vw;
+  width: 25vw;
 	height: 12vh;
 	background-color: white;
 
@@ -196,21 +196,89 @@ height: 132px;
 .item-mt {
 font-size: 1.8rem;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+}
+
+
+@media only screen and (min-device-width: 760px)
+and (max-device-width: 1024px) {
   /* iPad */
+  #nubexVideo {
+  height: 100%;
+  width: auto;
+  }
+
+  .about {
+    width: 45vw;
+height: 9vh;
+  }
+
+  .afisha {
+    width: 45vw;
+height: 9vh;
+  }
+
+
+.map {
+  width: 45vw;
+height: 14vh;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* iPad Portrait */
+
+  .tablichka {
+    width: 50%;
+
+  }
+
+  .a {
+    padding-top: 3vh;
+  }
+
+
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1180px) and (orientation: landscape) {
   /* iPad Landscape */
+  #nubexVideo {
+
+  min-height: 90%;
+  min-width: 100%;
+
+  }
+
+
+
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 1180px) and (orientation: portrait) {
+  /* iPad Portrait */
+
+  #nubexVideo {
+
+  }
+
+
+
+  .tablichka {
+    right: 1%;
+
+  }
 }
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+and (orientation: portrait) {
   /* iPhone Portrait */
+
+  .about {
+    width: 44vw;
+  }
+
+  .squareblock {
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
