@@ -159,7 +159,7 @@ $('.close').click(function () {
 
 $( function() {
     $( "#map1" ).draggable({
-  containment: "window"
+  containment: "yy"
 })
   } );
 

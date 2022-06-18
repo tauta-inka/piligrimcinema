@@ -46,7 +46,9 @@ background-image: url("../img/pattern.png");
 background-repeat: no-repeat;
 background-size: cover;
  /* cursor:	url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562029/cursor-worm_kij6gi.png'), auto; */
- cursor: pointer, url("../img/carsign.png") 4 12, auto !important;
+ cursor:	url('../img/carsign.png'), auto;
+
+ /* cursor: url("../img/carsign.png"), auto !important; */
 
 }
 
@@ -1011,6 +1013,15 @@ padding-left: 2vw;
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
+
+.yy {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 600px;
+	width: 100%;
+	display: block;
+	position: relative;
+}
 #map1 {
 position: relative;
 /* position: absolute;
@@ -1023,8 +1034,7 @@ position: relative;
 	height: 160vh; */
 	width: 1791px;
 	height: 2465px;
-overflow-x: hidden;
-overflow-y: hidden;
+
 }
 
 /* #map1 {
