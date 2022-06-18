@@ -497,4 +497,111 @@ $(document).mousemove(function(e) {
 });
 
 
+// $(function () {
+// let count = 0;
+// $('#buy1').click(function () {
+// count += 1;
+// if (count == 2) {
+// $(this).removeClass('png');
+// }
+// });
+// });
+//
+
+
+// $(function () {
+//   let count = 0;
+//
+//   $('#buy1').click(function () {
+//     count += 1;
+//   $('h7').html(' ' + count);
+//     $('#card-c').addClass('visible');
+//
+//      });
+//    });
+//
+//    $(function () {
+// let count;
+//      $('#buy2').click(function () {
+//        count += 1;
+//      $('h7').html(' ' + count);
+//        $('#card-p').addClass('visible');
+//
+//         });
+//       });
+
+
+
+
+$(function () {
+  let count = 0;
+  let ccount = 0;
+  let pcount = 0;
+  let tcount = 0;
+  let scount = 0;
+  $('#buy1').click(function () {
+    count += 1;
+    ccount += 1;
+  $('h7').html(' ' + count);
+  $('#count-c').html(' ' + ccount);
+    $('#card-c').addClass('visible');
+  $('.cart-count').addClass('visible');
+  $('#side-cart-btn').addClass('visible');
+  if (count == 10) {
+    $('h7').css("padding-left" , "30%");
+
+  }
+     });
+
+
+
+     $('#buy2').click(function () {
+       count += 1;
+      pcount += 1;
+     $('h7').html(' ' + count);
+     $('#count-p').html(' ' + pcount);
+       $('#card-p').addClass('visible');
+  $('.cart-count').addClass('visible');
+  $('#side-cart-btn').addClass('visible');
+  if (count == 10) {
+    $('h7').css("padding-left" , "30%");
+
+  }
+        });
+
+        $('#buy3').click(function () {
+          count += 1;
+          tcount += 1;
+        $('h7').html(' ' + count);
+        $('#count-t').html(' ' + tcount);
+          $('#card-t').addClass('visible');
+            $('.cart-count').addClass('visible');
+            $('#side-cart-btn').addClass('visible');
+            if (count == 10) {
+              $('h7').css("padding-left" , "30%");
+
+            }
+           });
+
+           $('#buy4').click(function () {
+             count += 1;
+             scount += 1;
+           $('h7').html(' ' + count);
+           $('#count-s').html(' ' + scount);
+             $('#card-s').addClass('visible');
+               $('.cart-count').addClass('visible');
+               $('#side-cart-btn').addClass('visible');
+             if (count == 10) {
+               $('h7').css("padding-left" , "30%");
+
+             }
+
+              });
+
+
+
+      });
+
+
+
     });
