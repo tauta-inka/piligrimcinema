@@ -467,5 +467,34 @@ $(document).mousemove(function(e) {
   });
 });
 
+$(".afisha").hover(
+   function () {
+     $('#sign1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#sign1').css({
+    left:e.pageX + 20,
+    top:e.pageY - 20
+  });
+});
+
+
+$(".map").hover(
+   function () {
+     $('#sign2').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#sign2').css({
+    left:e.pageX + 20,
+    top:e.pageY - 20
+  });
+});
+
 
     });
