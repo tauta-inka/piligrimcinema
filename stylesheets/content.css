@@ -5,11 +5,197 @@ body {
 	/* cursor: auto; */
 }
 
+.blocker {
+	display: block;
+}
+
+#godar2 {
+position: relative;
+display: none;
+background-image: url("../img/godar1.png");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: auto;
+}
+
+#godar1 {
+position: absolute;
+background-image: url("../img/godar1.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#highway1 {
+position: absolute;
+background-image: url("../img/highway.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#match1 {
+position: absolute;
+background-image: url("../img/match.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#zero1 {
+position: absolute;
+background-image: url("../img/zero.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#ny1 {
+position: absolute;
+background-image: url("../img/ny.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#sosedka1 {
+position: absolute;
+background-image: url("../img/sosedka.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#running1 {
+position: absolute;
+background-image: url("../img/running.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#breath1 {
+position: absolute;
+background-image: url("../img/breath.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#noi1 {
+position: absolute;
+background-image: url("../img/noi.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#tree1 {
+position: absolute;
+background-image: url("../img/tree.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#moby1 {
+position: absolute;
+background-image: url("../img/moby.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#shine1 {
+position: absolute;
+background-image: url("../img/shine.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#earth1 {
+position: absolute;
+background-image: url("../img/earth.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 500px;
+width: 500px;
+z-index: 9999;
+}
+
+#car1 {
+position: absolute;
+background-image: url("../img/carsign.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 200px;
+width: 200px;
+z-index: 9999;
+}
+
+
+.footer{
+	position: relative;
+	display: block;
+	background-color: black;
+	height: 200px;
+	width: 100%;
+	margin-top: 3rem;
+}
+
+ @-webkit-keyframes color_change {
+0% {background-color: red;}
+25% {background-color: orange;}
+50% {background-color: yellow;}
+75% {background-color: blue;}
+100% {background-color: red;}
+}
+
 .overlay {width: 100%; height:100%; display:block;}
 	#nubexDiv {
 		top: 50px; bottom: 0; left: 0; right: 0;
-		position: fixed;
-		overflow: hidden;
+		position: block;
+		overflow-x: hidden;
 	}
 	#nubexVideo {
 		top: 0; left: 0;
@@ -767,7 +953,9 @@ background-color: white;
 }
 .re-exp, .ae-exp, .be-exp, .ce-exp, .de-exp, .ee-exp, .fe-exp, .ge-exp, .he-exp, .ie-exp, .je-exp,
 .ke-exp, .le-exp   {
-  height: 250px;
+  /* height: 250px; */
+	height: auto;
+	padding-bottom: 2rem;
 }
 .re> div, .ae > div, .be > div, .ce > div, .de > div, .ee > div, .fe > div, .ge > div, .he > div, .ie > div, .je > div,
  .ke > div, .le > div    {
@@ -1049,6 +1237,15 @@ left: 0;
 overflow-x: hidden;
 overflow-y: hidden;
 } */
+
+.s0 {
+	/* padding-top: 30vh; */
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-top: 80vh;
+}
+
 .s1 {
 	/* padding-top: 30vh; */
 	position: relative;

@@ -157,6 +157,7 @@ $('.close').click(function () {
 //  });
 // });
 
+
 $( function() {
     $( "#map1" ).draggable({
   containment: "yy"
@@ -245,6 +246,226 @@ $('#back-circle').click(function () {
   $('#tovar-cup').toggleClass('noner');
 })
 
+
+
+// $(document).mousemove(function(e) {
+//   $('#cursor').css({
+//     left:e.pageX - 30,
+//     top:e.pageY - 30
+//   });
+// });
+
+// $(".re").hover(
+//    function () {
+//      $('#cursor').css("visible");
+//    },
+//    function () {
+//      $('#cursor').removeClass("visible");
+//    }
+//  );
+
+// $(".re").hover(
+//    function () {
+//      $('#cursor').css("display","block");
+//    }
+//  );
+
+
+$(".re").hover(
+   function () {
+     $('#godar1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#godar1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".ae").hover(
+   function () {
+     $('#highway1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#highway1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".be").hover(
+   function () {
+     $('#match1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#match1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".ce").hover(
+   function () {
+     $('#zero1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#zero1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".de").hover(
+   function () {
+     $('#ny1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#ny1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".fe").hover(
+   function () {
+     $('#sosedka1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#sosedka1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".ee").hover(
+   function () {
+     $('#running1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#running1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".ge").hover(
+   function () {
+     $('#breath1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#breath1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".he").hover(
+   function () {
+     $('#noi1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#noi1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".ie").hover(
+   function () {
+     $('#tree1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#tree1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".je").hover(
+   function () {
+     $('#moby1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#moby1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".ke").hover(
+   function () {
+     $('#shine1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#shine1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 250
+  });
+});
+
+$(".le").hover(
+   function () {
+     $('#earth1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#earth1').css({
+    left:e.pageX + 30,
+    top:e.pageY - 350
+  });
+});
+
+$(".about").hover(
+   function () {
+     $('#car1').toggleClass("visible");
+   }
+ );
+
+
+$(document).mousemove(function(e) {
+  $('#car1').css({
+    left:e.pageX + 20,
+    top:e.pageY - 20
+  });
+});
 
 
     });
