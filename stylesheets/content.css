@@ -9,6 +9,24 @@ body {
 	display: block;
 }
 
+.wrap-level {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.dot {
+	position: relative;
+	background-color: black;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+
+
+}
+
 #godar2 {
 position: relative;
 display: none;
@@ -198,7 +216,7 @@ z-index: 9999;
 	position: relative;
 	display: block;
 	background-color: black;
-	height: 200px;
+	height: 400px;
 	width: 100%;
 	margin-top: 3rem;
 }
@@ -616,6 +634,8 @@ border-top: 1px solid black;
 } */
 
 .header {
+	overflow-y: hidden;
+	overflow-x: hidden;
 	z-index: 500;
 	position: fixed;
 	top: 0; left: 0;
@@ -1104,16 +1124,7 @@ h6 {
 	margin-top: 2vh;
 }
 
-.dot {
-	position: absolute;
-	background-color: black;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	top: -1rem;
-	right: 2rem;
 
-}
 
 .dot2 {
 	position: absolute;
@@ -1615,10 +1626,20 @@ padding-left: 2rem;
 	position: relative;
 	display: flex;
 	/* overflow-x: hidden; */
-	width: 150vw;
+	/* width: 150vw; */
 	justify-content: flex-start;
 	border-top: 1px solid black;
+	padding-right: 8rem;
 	/* margin-right: 70vw; */
+}
+
+.space {
+	position: relative;
+	display: block;
+padding-left: 10rem;
+	width: 40vw;
+	height: 50vh;
+	background-color: white;
 }
 .merch-title {
 	margin-top: 1rem;
