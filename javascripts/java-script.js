@@ -3,12 +3,14 @@ $(document).ready(function () {
   $('.re').click(function () {
     $(this).toggleClass('re-exp');
     $('.re-in2 > h4').toggleClass('visible');
+    $('.re-in2 > div').toggleClass('visible');
     $('.re-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
   $('.ae').click(function () {
     $(this).toggleClass('ae-exp');
     $('.ae-in2 > h4').toggleClass('visible');
+    $('.ae-in2 > div').toggleClass('visible');
     $('.ae-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -16,6 +18,7 @@ $(document).ready(function () {
   $('.be').click(function () {
     $(this).toggleClass('be-exp');
     $('.be-in2 > h4').toggleClass('visible');
+    $('.be-in2 > div').toggleClass('visible');
     $('.be-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -23,6 +26,7 @@ $(document).ready(function () {
   $('.ce').click(function () {
     $(this).toggleClass('ce-exp');
     $('.ce-in2 > h4').toggleClass('visible');
+    $('.ce-in2 > div').toggleClass('visible');
     $('.ce-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -30,6 +34,7 @@ $(document).ready(function () {
   $('.de').click(function () {
     $(this).toggleClass('de-exp');
     $('.de-in2 > h4').toggleClass('visible');
+    $('.de-in2 > div').toggleClass('visible');
     $('.de-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -37,6 +42,7 @@ $(document).ready(function () {
   $('.ee').click(function () {
     $(this).toggleClass('ee-exp');
     $('.ee-in2 > h4').toggleClass('visible');
+    $('.ee-in2 > div').toggleClass('visible');
     $('.ee-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -44,6 +50,7 @@ $(document).ready(function () {
   $('.fe').click(function () {
     $(this).toggleClass('fe-exp');
     $('.fe-in2 > h4').toggleClass('visible');
+    $('.fe-in2 > div').toggleClass('visible');
     $('.fe-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -52,6 +59,7 @@ $(document).ready(function () {
   $('.ge').click(function () {
     $(this).toggleClass('ge-exp');
     $('.ge-in2 > h4').toggleClass('visible');
+    $('.ge-in2 > div').toggleClass('visible');
     $('.ge-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -60,6 +68,7 @@ $(document).ready(function () {
   $('.he').click(function () {
     $(this).toggleClass('he-exp');
     $('.he-in2 > h4').toggleClass('visible');
+    $('.he-in2 > div').toggleClass('visible');
     $('.he-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -67,6 +76,7 @@ $(document).ready(function () {
   $('.ie').click(function () {
     $(this).toggleClass('ie-exp');
     $('.ie-in2 > h4').toggleClass('visible');
+    $('.ie-in2 > div').toggleClass('visible');
     $('.ie-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -74,6 +84,7 @@ $(document).ready(function () {
   $('.je').click(function () {
     $(this).toggleClass('je-exp');
     $('.je-in2 > h4').toggleClass('visible');
+    $('.je-in2 > div').toggleClass('visible');
     $('.je-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -82,6 +93,7 @@ $(document).ready(function () {
   $('.ke').click(function () {
     $(this).toggleClass('ke-exp');
     $('.ke-in2 > h4').toggleClass('visible');
+    $('.ke-in2 > div').toggleClass('visible');
     $('.ke-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -90,6 +102,7 @@ $(document).ready(function () {
   $('.le').click(function () {
     $(this).toggleClass('le-exp');
     $('.le-in2 > h4').toggleClass('visible');
+    $('.le-in2 > div').toggleClass('visible');
     $('.le-in3 > button').toggleClass('visible');
       // $('.re-in2 > h4').css('display', 'block');
   })
@@ -104,6 +117,21 @@ if ( scrolled > 100 && scrolled > scrollPrev ) {
 header.addClass('out');
 } else {
 header.removeClass('out');
+}
+scrollPrev = scrolled;
+});
+
+
+var header2 = $('.mob'),
+scrollPrev = 0;
+
+$(window).scroll(function() {
+var scrolled = $(window).scrollTop();
+
+if ( scrolled > 100 && scrolled > scrollPrev ) {
+('.mob')addClass('out');
+} else {
+('.mob')removeClass('out');
 }
 scrollPrev = scrolled;
 });
@@ -187,6 +215,12 @@ $( function() {
   $('#side-cart').toggleClass('picture-cart');
   $('#side-cart > div').toggleClass('noner');
   })
+
+  // $('#side-cart').hover(function () {
+  //
+  // $('#side-cart').toggleClass('picture-cart');
+  // $('#side-cart > div').toggleClass('noner');
+  // })
 
 
 // $(".large-btn").one('click', function(){
@@ -547,6 +581,7 @@ $(function () {
     $('#card-c').addClass('visible');
   $('.cart-count').addClass('visible');
   $('#side-cart-btn').addClass('visible');
+    $('.empty').addClass('noner');
   if (count == 10) {
     $('h7').css("padding-left" , "30%");
 
@@ -563,6 +598,7 @@ $(function () {
        $('#card-p').addClass('visible');
   $('.cart-count').addClass('visible');
   $('#side-cart-btn').addClass('visible');
+    $('.empty').addClass('noner');
   if (count == 10) {
     $('h7').css("padding-left" , "30%");
 
@@ -577,6 +613,7 @@ $(function () {
           $('#card-t').addClass('visible');
             $('.cart-count').addClass('visible');
             $('#side-cart-btn').addClass('visible');
+              $('.empty').addClass('noner');
             if (count == 10) {
               $('h7').css("padding-left" , "30%");
 
@@ -591,6 +628,7 @@ $(function () {
              $('#card-s').addClass('visible');
                $('.cart-count').addClass('visible');
                $('#side-cart-btn').addClass('visible');
+                 $('.empty').addClass('noner');
              if (count == 10) {
                $('h7').css("padding-left" , "30%");
 

@@ -1,7 +1,9 @@
 @media only screen and (min-width: 1920px) {
   /* Desktop */
 
+#godar2 {
 
+}
   h1 {
     font-size: 8rem;
     padding-top: 1rem;
@@ -257,9 +259,17 @@ h6 {
 
 }
 
+@media only screen and (min-device-width: 1367px)
+ {
 
-@media only screen and (min-device-width: 760px)
-and (max-device-width: 1180px) {
+#godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
+  display: none!important;
+}
+
+
+}
+@media only screen and (min-width: 768px)
+and (max-width: 1366px) {
   /* iPad */
   /* #nubexVideo {
   height: 100%;
@@ -271,7 +281,7 @@ text-align: right;
 padding-right: 2rem;
 }
 
-
+/*
   .about {
     width: 45vw;
 height: 9vh;
@@ -296,7 +306,7 @@ height: 14vh;
 
   .a {
     padding-top: 3vh;
-  }
+  } */
 
 h1 {
   font-size: 5rem;
@@ -328,10 +338,17 @@ height: 60px;
 border-radius: 60px;
 
 }
+#godar1, #highway1, #match1, #zero1, #ny1, #sosedka1, #running1, #breath1, #earth1, #tree1, #noi1, #moby1, #shine1 {
+  display: none!important;}
+}
+#godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
+  background-size: contain;
+}
 
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1180px) and (orientation: landscape) {
+@media only screen and (min-width: 700px)
+and (max-width: 1366px) and (orientation: landscape) {
   /* iPad Landscape */
   #nubexVideo {
 
@@ -369,11 +386,53 @@ border-radius: 60px;
       padding-top: 5vh;}
 }
 
-@media only screen and (min-device-width: 767px) and (max-device-width: 1180px) and (orientation: portrait) {
+@media only screen and (min-width: 700px)
+and (max-width: 1366px) and (orientation: portrait) {
   /* iPad Portrait */
-
+  #godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
+    height: 350px;
+    background-size: contain;
+  }
   #nubexVideo {
 
+  }
+
+    .about {
+      width: 45vw;
+  height: 9vh;
+    }
+
+    .afisha {
+      width: 45vw;
+  height: 9vh;
+    }
+
+
+  .map {
+    width: 45vw;
+  height: 14vh;
+  }
+
+
+    .tablichka {
+      width: 50%;
+
+    }
+
+    .a {
+      padding-top: 3vh;
+    }
+
+
+  .re-in2,  .re-in2, .ae-in2, .be-in2, .ce-in2, .de-in2, .ee-in2, .fe-in2, .ge-in2, .he-in2,
+    .ie-in2, .je-in2, .ke-in2, .le-in2 {
+
+    width: 40%!important;
+
+  }
+
+  .re-in3, .ae-in3, .be-in3, .ce-in3, .de-in3, .ee-in3, .fe-in3, .ge-in3, .he-in3, .ie-in3, .je-in3, .ke-in3, .le-in3 {
+    width: 20%!important;
   }
 
   .scale {
@@ -400,26 +459,265 @@ flex-shrink: 1;
 }
 
 
+@media only screen
+and ( min-device-width: 812px)
+and ( max-device-width: 896px)
+and (min-device-height: 375px)
+and (max-device-height: 414px)
+and (orientation: landscape) {
+    /* iPhone Landscape */
+h1 {
+  font-size: 4.5rem;
+}
+
+.s2 {
+    padding-top: 43vh;}
+
+    .main-p {
+    width: 59vw;}
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+    .another-h4 {
+        font-size: 1.2rem;}
+
+        .s4 {
+            padding-top: 47vh;}
+
+
+}
+
+@media only screen
+
+and (min-width: 375px)
+and (max-width: 414px)
+and ( min-height: 812px)
+and ( max-height: 896px)
 and (orientation: portrait) {
   /* iPhone Portrait */
+  .descr {
 
-  .about {
-    width: 44vw;
+      padding-top: 3vh;
   }
+  .section {
+    margin-top: 3vh;
+  }
+  .main-p {
+  width: 67vw;}
+
+  h5 {
+    font-size: 13px;
+  }
+
+.scroll-section {
+  width: 100%;
+}
+#van1, #hall1, #tickets, #f1 {
+  width: 100vw;
+  /* margin-left: 5%; */
+  height: 32vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#tickets {
+
+    margin-top: 2vh;}
+
+#f1 {
+  margin-left: 0;
+}
+
+#f2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    width: 88vw;
+    height: 25vh;
+  overflow-x: hidden;}
+.icontainer {
+      flex-direction: column;
+      padding-left: 0;
+    }
+.another-h4 {
+      font-size: 1rem;}
+
+.lines {
+
+    margin-top: -16vh;}
+
+h1 {
+font-size: 2.6rem;
+}
+
+#fl2, #tent1, #tent3 {
+  background-size: contain;
+  background-repeat: no-repeat;
+width: 100vw;
+height: 27vh;
+}
+
+#tent2, #tent3 {
+  margin-top: 2vh;
+  width: 100vw;
+  background-position: center;
+}
+.about {
+  width: 76vw;
+height: 9vh;
+}
+
+.a {
+  padding-top: 3vh;
+}
+
+.afisha {
+  width: 76vw;
+height: 9vh;
+}
+
+
+.map {
+width: 76vw;
+height: 14vh;
+}
+
+
+.tablichka {
+  width: 80%;
+
+}
 
   .squareblock {
     display: none;
   }
 
 
+.quote, .quote1 {
+  text-indent: 0;
+  font-size: 1.6rem;
+  padding-top: 4vh;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
-  /* iPhone Landscape */
+
+.nav-line {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-  /* iPhone Portrait */
+.h-nav {
+  font-size: 14px;
+}
+  .before-p {
+    width: 30vw;
+  }
+
+  .sticky-section {
+    width: 30vw;
+    display: none;
+  }
+  .s4 {
+      padding-top: 39vh;
+
+}
+.s2 {
+    padding-top: 29vh;}
+
+.h8 {
+  text-align: left;
+}
+.f-wrap {
+  padding-left: 0.5rem;
+}
+
+.header {
+  display: none;
+}
+
+.mob {
+  display: block;
+
+  	overflow-y: hidden;
+  	overflow-x: hidden;
+  	z-index: 500;
+  	position: fixed;
+  	top: 0; left: 0;
+  	width: 100%;
+  	transition: all .3s ease;
+
+}
+
+.mob.out {
+	transform: translateY(-100%);
+}
+.mob-nav-wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 92px;
+}
+
+.m2 {
+padding-left: 1rem;
+padding-top: 1rem;
+
+}
+
+.m3 {
+
+
+}
+#logo2 {
+  position: relative;
+  background-image: url("../img/logo2.png");
+background-size: contain;
+width: 50px;
+height: 40px;
+background-repeat: no-repeat;
+}
+#burger {
+  position: relative;
+  background-image: url("../img/burger.png");
+background-size: contain;
+background-position: center;
+width: 35px;
+height: 35px;
+background-repeat: no-repeat;
+margin-left: 1.45rem;
+margin-top: 1.4rem;
+}
+#menu {
+  margin-right: 0.5rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5px;
+  width: 80px;
+ height: 80px;
+ margin-top: 1px;
+ background-color: white;
+ border-radius: 50%;
+ border: 1px solid black;
+}
+
+#menu:active {
+  background-color: black;
+}
+
+#menu:active > div{
+  filter: invert(100%);
+}
+nav {
+  /* background-color: rgba(0, 0, 0, 0); */
+  /* border-bottom: 0; */
+}
+.overlay {
+  margin-top: -142px;
+}
+
+}
+
+
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { */
