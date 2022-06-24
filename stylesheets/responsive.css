@@ -268,7 +268,7 @@ h6 {
 
 
 }
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 700px)
 and (max-width: 1366px) {
   /* iPad */
   /* #nubexVideo {
@@ -386,7 +386,8 @@ and (max-width: 1366px) and (orientation: landscape) {
       padding-top: 5vh;}
 }
 
-@media only screen and (min-width: 700px)
+@media only screen
+ and (min-width: 700px)
 and (max-width: 1366px) and (orientation: portrait) {
   /* iPad Portrait */
   #godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
@@ -463,7 +464,7 @@ flex-shrink: 1;
 and ( min-device-width: 812px)
 and ( max-device-width: 896px)
 and (min-device-height: 375px)
-and (max-device-height: 414px)
+and (max-device-height: 416px)
 and (orientation: landscape) {
     /* iPhone Landscape */
 h1 {
@@ -488,10 +489,10 @@ h1 {
 
 @media only screen
 
-and (min-width: 375px)
-and (max-width: 414px)
-and ( min-height: 812px)
-and ( max-height: 896px)
+and (min-device-width: 375px)
+and (max-device-width: 416px)
+and ( min-device-height: 809px)
+and ( max-device-height: 896px)
 and (orientation: portrait) {
   /* iPhone Portrait */
   .descr {
@@ -634,7 +635,7 @@ height: 14vh;
   display: none;
 }
 
-.mob {
+.header-mob {
   display: block;
 
   	overflow-y: hidden;
@@ -647,7 +648,7 @@ height: 14vh;
 
 }
 
-.mob.out {
+.header-mob.out {
 	transform: translateY(-100%);
 }
 .mob-nav-wrap {
