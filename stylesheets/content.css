@@ -5,6 +5,13 @@ body {
 	/* cursor: auto; */
 }
 
+.ghost {
+	opacity: 0;
+}
+
+.noborder {
+	border: none;
+}
 .blocker {
 	display: block;
 }
@@ -898,6 +905,10 @@ h3 {
   color: white;
 margin-top: 2vh;
 cursor: pointer;
+}
+
+.opened-mob-menu {
+	display: none;
 }
 
 .butticket:hover {
