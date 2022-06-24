@@ -263,7 +263,21 @@ h6 {
  {
 /* hover for desktop */
 
+#nubexVideo {
 
+width: 100%;
+height: auto;
+}
+#myVideo {
+
+width: 100%;
+height: auto;
+}
+
+
+.overlay {
+    margin-top: -40px;
+}
 #godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
   display: none!important;
   /* opacity: 0; */
@@ -271,8 +285,10 @@ h6 {
 
 
 }
-@media only screen and (min-width: 700px)
-and (max-width: 1366px) {
+@media only screen
+/* and (min-width: 700px) */
+and (max-width: 1366px)
+{
   /* iPad */
   /* #nubexVideo {
   height: 100%;
@@ -298,7 +314,7 @@ padding-right: 2rem;
 
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -336,9 +352,17 @@ and (max-width: 1366px) and (orientation: landscape) {
   /* iPad Landscape */
   #nubexVideo {
 
-  min-height: 90%;
-  min-width: 100%;
+  /* min-height: 90%;
+  min-width: 100%; */
 
+  }
+
+  #myVideo {
+
+  }
+
+  h1 {
+    font-size: 5rem;
   }
 
   .tablichka {
@@ -378,8 +402,13 @@ and (max-width: 1366px) and (orientation: portrait) {
     height: 350px;
     background-size: contain;
   }
-  #nubexVideo {
+  #myVideo {
 
+width: auto;
+height: 100%;
+overflow-x: hidden;
+overflow-y: hidden;
+max-height:  100%;
   }
 
     .about {
@@ -487,7 +516,89 @@ and (orientation: portrait) {
   }
   #godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
     background-size: contain;
+    width: 100vw;
+    height: 594px;
+      margin-left: -1rem;
   }
+
+  .re, .de, .fe, .je    {
+
+    height: 160px;
+
+  }
+
+  .ae, .be, .ce, .ee, .ge, .he, .ie, .ke, .le  {
+
+    height: 85px;
+  }
+
+  .re-exp, .ae-exp, .be-exp, .ce-exp, .de-exp, .ee-exp, .fe-exp, .ge-exp, .he-exp, .ie-exp, .je-exp,
+  .ke-exp, .le-exp   {
+    /* height: 250px; */
+  	height: auto;
+  	padding-bottom: 7rem;
+  }
+
+
+
+
+  .re-in1 > h2, .de-in1 > h2, .fe-in1 > h2, .je-in1 > h2 {
+    padding-left: 0rem;
+    line-height: 4rem;
+    padding-top: 2rem;
+    margin-left: -0.2rem;
+  }
+
+  h2 {
+  font-size: 5rem;
+  padding-left: 0;
+  margin-top: -2rem;
+  }
+
+  h3 {
+    margin-top: 1rem;
+  }
+
+  .re> div, .ae > div, .be > div, .ce > div, .de > div, .ee > div, .fe > div, .ge > div, .he > div, .ie > div, .je > div,
+  .ke > div, .le > div {
+    padding-left: 1rem;
+width: 90%;
+    display: block;
+  }
+
+
+  .re-in2 > h4 {
+    width: 90vw;
+    /* padding-left: 0.5rem; */
+  }
+
+  .re-in3, .ae-in3, .be-in3, .ce-in3, .de-in3, .ee-in3, .fe-in3, .ge-in3, .he-in3, .ie-in3, .je-in3, .ke-in3, .le-in3
+    {
+      display: block;
+float: left;
+padding-left: 1rem;
+margin-top: 0.5rem;
+
+    /* display: block; */
+    /* position: absolute!important; */
+    /* top: 0.5rem;
+    right: 0; */
+  }
+
+  .timeblock {
+    position: relative;
+    margin-left: -0.5rem;
+    display: flex;
+    justify-content: flex-start;}
+
+  .butticket{
+float: left;
+
+    /* margin-top: 1rem; */
+    /* margin-right: 6rem; */
+  }
+
+
   .descr {
 
       padding-top: 3vh;
@@ -545,23 +656,9 @@ h1 {
 font-size: 2.6rem;
 }
 
-h2 {
-font-size: 4rem;
-padding-left: 0;
-margin-top: -2rem;
-}
 
-.re-in1 > h2, .de-in1 > h2, .fe-in1 > h2, .je-in1 > h2 {
-  padding-left: 0rem;
-  /* margin-left: -1rem; */
-}
 
-.re> div, .ae > div, .be > div, .ce > div, .de > div, .ee > div, .fe > div, .ge > div, .he > div, .ie > div, .je > div,
-.ke > div, .le > div {
-  padding-left: 0rem;
 
-  display: block;
-}
 #fl2, #tent1, #tent3 {
   background-size: contain;
   background-repeat: no-repeat;
@@ -763,6 +860,35 @@ nav {
   margin-top: 1rem;
 
 }
+
+.items {
+  flex-direction: column;
+    overflow-x: scroll;
+    /* padding-left: 0rem; */
+}
+
+.merch-item {
+  padding-left: 0px;
+  margin-bottom: 4rem;
+}
+
+
+.item-mt {
+
+    font-size: 1.8rem;}
+
+    #learnmore-circle, #learnmore-circle-2, #learnmore-circle-3, #learnmore-circle-4 {
+
+        display: inline-block;}
+
+.merch-title {
+
+    width: 90vw;
+  padding-left: 1rem;}
+
+    .scale {
+      width: 100vw;
+    }
 
 }
 

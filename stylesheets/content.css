@@ -326,6 +326,17 @@ width: 150px;
 z-index: 9999;
 }
 
+#car2 {
+position: absolute;
+background-image: url("../img/carsign2.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: none;
+height: 150px;
+width: 150px;
+z-index: 9999;
+}
+
 #sign1 {
 position: absolute;
 background-image: url("../img/sign1.png");
@@ -385,6 +396,7 @@ padding-top: 90px;
 	} */
 
 	.overlay { margin-top: -90px;
+		cursor: none!important;
 	}
 		#nubexDiv {
 			/* top: 50px; bottom: 0; left: 0; right: 0; */
@@ -392,12 +404,23 @@ padding-top: 90px;
 			overflow-x: hidden;
 			width: 100%;
 	 	 height: auto;
+		 max-width: 100%;
 		}
 		#nubexVideo {
 	/* position: inline-block; */
 			filter: grayscale(100%);
 min-height: 100%;
 min-width: 100%;
+		}
+
+		#myVideo {
+	/* position: inline-block; */
+			filter: grayscale(100%);
+			width: 100%;
+		 height: auto;
+		 margin-top: -90px;
+/* min-height: 100%;
+min-width: 100%; */
 		}
 
 

@@ -489,15 +489,34 @@ $(document).mousemove(function(e) {
 
 $(".about").hover(
    function () {
-     $('#car1').toggleClass("visible");
+     $('#car2').toggleClass("visible");
    }
  );
+
+ $(".overlay").hover(
+    function () {
+      $('#car1').toggleClass("visible");
+    }
+  );
+
+  $("nav").hover(
+     function () {
+       $('#car1').toggleClass("visible");
+     }
+   );
 
 
 $(document).mousemove(function(e) {
   $('#car1').css({
-    left:e.pageX + 20,
-    top:e.pageY - 20
+    left:e.pageX + 2,
+    top:e.pageY - 2
+  });
+});
+
+$(document).mousemove(function(e) {
+  $('#car2').css({
+    left:e.pageX + 10,
+    top:e.pageY - 10
   });
 });
 
