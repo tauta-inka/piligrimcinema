@@ -649,7 +649,7 @@ padding-left: 2vw;
 .cart {
 	position: fixed;
 	display: none;
-	z-index: 100;
+	z-index: 200;
 	right: 0;
 	top: 0;
 	/* width: 509px; */
@@ -664,9 +664,7 @@ padding-left: 2vw;
 	/* padding-left: 2vw; */
 }
 
-#side-cart {
 
-}
 
 .noner {
 	display: none!important;
@@ -1106,8 +1104,9 @@ h7 {
 	background-color: black;
 display: none;
 
-
 }
+
+
 .roundbutt:hover {
 	animation: trafficlight 1s 1 forwards;
 }
@@ -1465,6 +1464,7 @@ padding-left: 2vw;
 .mapp {
 	position: relative;
 	width: 100%;
+	height: auto;
 	/* height: 80%; */
 	display: block;
 	overflow-x: hidden;
@@ -1474,7 +1474,7 @@ padding-left: 2vw;
 .yy {
 	overflow-x: hidden;
 	overflow-y: hidden;
-	height: 600px;
+	height: 900px;
 	width: 100%;
 	display: block;
 	position: relative;
@@ -1489,9 +1489,9 @@ position: relative;
 	background-repeat: no-repeat;
 	/* width: 200vw;
 	height: 160vh; */
-	width: 1791px;
+	/* width: 1791px; */
 	height: 2465px;
-
+width: 100%;
 }
 
 /* #map1 {
@@ -2297,4 +2297,9 @@ text-transform: uppercase;
 	font-size: 18px;
 
   color: black;
+}
+
+
+.opened-mob {
+	display: none;
 }

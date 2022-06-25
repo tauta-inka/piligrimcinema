@@ -1,9 +1,7 @@
 @media only screen and (min-width: 1920px) {
   /* Desktop */
 
-#godar2 {
 
-}
   h1 {
     font-size: 8rem;
     padding-top: 1rem;
@@ -347,13 +345,18 @@ border-radius: 60px;
 
 }
 
+
+
+
+
+
+/* iPad Landscape */
 @media only screen and (min-width: 700px)
 and (max-width: 1366px) and (orientation: landscape) {
-  /* iPad Landscape */
+
   #nubexVideo {
 
-  /* min-height: 90%;
-  min-width: 100%; */
+
 
   }
 
@@ -392,12 +395,24 @@ and (max-width: 1366px) and (orientation: landscape) {
 
   .c {
       padding-top: 5vh;}
+
+
+
 }
 
+
+
+
+
+
+
+/* iPad Portrait */
 @media only screen
- and (min-width: 700px)
-and (max-width: 1366px) and (orientation: portrait) {
-  /* iPad Portrait */
+ and (min-device-width: 700px)
+and (max-device-width: 1366px)
+
+and (orientation: portrait) {
+
   #godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
     height: 350px;
     background-size: contain;
@@ -464,22 +479,63 @@ max-height:  100%;
 
 
   .back-block {
-    display: inline-flex;
-flex-shrink: 1;
+    /* display: inline-flex; */
+    /* background-color: pink; */
+/* flex-shrink: 1; */
+position: absolute;
+top: -9rem;
+left: 10px;
 
   }
 
+  .info-block{
+    padding-right: 2rem;
+padding-left: 2rem;
+padding-top: 5vh;
+}
+#cup-main, #bag-main, #tshirt-main, #pop-main  {
+  position: relative;
+  /* display: inline-block; */
+
+  background-size: cover;
+  background-position: center;
+  /* height: auto; */
+  width: 60vw;
+  height: 60vh;
 
 }
 
+.size-selector {
+  width: 86px;
+}
 
+.info-h4 {
+  width: 40vw;
+}
+/* .large-btn {
+  width: 334px;
+} */
+
+  .tovar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 15rem;
+  }
+.openpath {
+  width: 44vw;
+}
+
+}
+
+/* iPhone Landscape */
 @media only screen
 and ( min-device-width: 812px)
 and ( max-device-width: 896px)
 and (min-device-height: 375px)
 and (max-device-height: 416px)
 and (orientation: landscape) {
-    /* iPhone Landscape */
+
 h1 {
   font-size: 4.5rem;
 }
@@ -500,6 +556,13 @@ h1 {
 
 }
 
+
+
+
+
+
+/* iPhone Portrait */
+
 @media only screen
 
 and (min-device-width: 375px)
@@ -507,9 +570,11 @@ and (max-device-width: 416px)
 and ( min-device-height: 809px)
 and ( max-device-height: 896px)
 and (orientation: portrait) {
-  /* iPhone Portrait */
 
 
+.back-block {
+    background-color: yellow;
+}
   #godar1, #highway1, #match1, #zero1, #ny1, #sosedka1, #running1, #breath1, #earth1, #tree1, #noi1, #moby1, #shine1 {
     display: none!important;
 
@@ -569,7 +634,7 @@ width: 90%;
 
   .re-in2 > h4 {
     width: 90vw;
-    /* padding-left: 0.5rem; */
+
   }
 
   .re-in3, .ae-in3, .be-in3, .ce-in3, .de-in3, .ee-in3, .fe-in3, .ge-in3, .he-in3, .ie-in3, .je-in3, .ke-in3, .le-in3
@@ -578,11 +643,6 @@ width: 90%;
 float: left;
 padding-left: 1rem;
 margin-top: 0.5rem;
-
-    /* display: block; */
-    /* position: absolute!important; */
-    /* top: 0.5rem;
-    right: 0; */
   }
 
   .timeblock {
@@ -594,8 +654,6 @@ margin-top: 0.5rem;
   .butticket{
 float: left;
 
-    /* margin-top: 1rem; */
-    /* margin-right: 6rem; */
   }
 
 
@@ -767,6 +825,31 @@ height: 14vh;
   height: 92px;
   z-index: 9998;
 }
+#mob-side-cart {
+  position: relative;
+
+  width: 80px;
+ height: 80px;
+
+ background-color: white;
+ border-radius: 50%;
+ border: 1px solid black;
+}
+
+
+
+.cart-count {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background-color: black;
+display: none;
+
+}
+
 
 .m2 {
 padding-left: 1rem;
@@ -775,7 +858,11 @@ padding-top: 1rem;
 }
 
 .m3 {
-
+width: 180px;
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+align-items: center;
 
 }
 #logo2 {
@@ -829,10 +916,7 @@ margin-top: 1.4rem;
 #menu:active > div{
   filter: invert(100%);
 }
-nav {
-  /* background-color: rgba(0, 0, 0, 0); */
-  /* border-bottom: 0; */
-}
+
 .overlay {
   margin-top: -142px;
 }
@@ -864,7 +948,7 @@ nav {
 .items {
   flex-direction: column;
     overflow-x: scroll;
-    /* padding-left: 0rem; */
+
 }
 
 .merch-item {
@@ -889,6 +973,159 @@ nav {
     .scale {
       width: 100vw;
     }
+
+    .more {
+
+    margin-left: -0.2rem;}
+
+    .buybutton, #buy1, #buy2, #buy3, #buy4 {
+      margin-right: -0.6rem;}
+
+.space {
+  height: 20vh;
+}
+
+.tovar {
+ flex-direction: column;
+ height: auto;
+ width: 100vw;
+}
+
+#cup-main, #bag-main, #tshirt-main, #pop-main  {
+	position: relative;
+	/* display: inline-block; */
+
+	background-size: cover;
+	background-position: center;
+	/* height: auto; */
+	width: 100vw;
+  height: 43vh;
+
+}
+
+#strelka {
+  width: 80px;
+  height: 80px;
+}
+
+.back-circle {
+  width: 80px;
+  height: 80px;
+}
+.info-h4 {
+  width: 100%;
+}
+
+.info-h1 {
+  font-size: 4.5rem;
+  line-height: 4rem;
+  margin-bottom: 0.4rem;
+}
+.info-block {
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3vh;
+  box-sizing: border-box;}
+
+.large-btn {
+  height: 195px;
+    width: 352px;
+    line-height: 195px;
+    margin-bottom: 3rem;
+}
+
+.back-block {
+margin-bottom: 1rem;
+
+}
+
+.openpath {
+position: absolute;
+display: flex;
+    z-index: 50;
+    right: 0;
+padding-left: 1rem;
+    top: 500px;
+    width: 100vw;
+  height: 80px;}
+
+.mapp {
+  height: 70vh;
+}
+
+.arrow4 {
+margin-left: 2rem;
+margin-right: 3rem;
+transform: rotate(-90deg);
+}
+
+@keyframes go {
+    0% {
+        left:0%;  top:800px;
+    }
+
+
+    100% {
+       left:0%;  top:100px;
+    }
+  }
+
+  @keyframes goback {
+      0% {
+        left:0%;  top:100px;
+      }
+
+
+      100% {
+        left:0%;  top:800px;
+      }
+    }
+  .opened-mob {
+  	position: absolute;
+  	display: block;
+  	z-index: 50;
+  	right: 0;
+  	top: 800px;
+  	width:100vw;
+
+  	height: 100%;
+  	background-color: white;
+  	border-top: 1px solid black;
+  	border-right: none;
+  	/* border-top: 1px solid black; */
+  	padding-bottom: 2vh;
+  	padding-top: 3vh;
+  	padding-left: 3rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  	  transition: all 2s ease;
+  		overflow-x: hidden;
+  		overflow-y: hidden;
+      animation: icons 1000ms 1;
+     /* animation-name: go; */
+     animation-direction: normal;
+     animation-fill-mode: forwards;
+  }
+
+  .opened {
+    opacity: 0;
+  }
+
+  .close {
+
+
+  }
+
+  .area {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: block;
+    float: right;
+    padding-right: 2vw;
+    z-index: 90;
+  }
 
 }
 

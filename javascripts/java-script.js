@@ -216,6 +216,10 @@ $( function() {
   $('#side-cart > div').toggleClass('noner');
   })
 
+  $('#mob-side-cart').click(function () {
+    $('.cart').toggleClass('visible');
+  })
+
   // $('#side-cart').hover(function () {
   //
   // $('#side-cart').toggleClass('picture-cart');
@@ -668,6 +672,18 @@ $(function () {
         $('.header-mob').toggleClass('noborder');
           // $('.re-in2 > h4').css('display', 'block');
       })
+
+
+$(".openpath").click(function(){
+    $(".opened-mob").css("animation-name", "go");
+    })
+
+
+  $(".area").click(function(){
+       $(".opened-mob").css("animation-name", "goback");
+       $(".openpath").css('display','flex');
+       })
+
 
 
 
