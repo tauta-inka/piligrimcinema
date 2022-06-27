@@ -8,13 +8,26 @@
     <meta property="og:title" content="название">
     <meta property="og:description" content="текст">
     <meta property="og:image" content="{картинка}">
-    <title>Шаблон</title>
+    <title>Кинотеатр на колесах</title>
       <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
       <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
       <script src="javascripts/java-script.js" charset="utf-8"></script>
       <script type="text/javascript">
 
       </script>
+
+      <style>
+      @media only screen
+      and ( min-device-width: 812px)
+      and ( max-device-width: 896px)
+      and (min-device-height: 375px)
+      and (max-device-height: 416px)
+      and (orientation: landscape) {
+      .out {
+        transform: translateY(0px);
+      }
+    }
+      </style>
   </head>
   <body>
     <!-- <div class="gline1"></div> -->
@@ -169,10 +182,11 @@
               </div>
           </div>
 
-          <button id="side-cart-btn">
+          <a href="https://tauta-inka.github.io/pilgrim/" target="_blank">
+            <button id="side-cart-btn">
             <p>перейти к оплате</p>
 
-          </button>
+          </button></a>
 
         </div>
 

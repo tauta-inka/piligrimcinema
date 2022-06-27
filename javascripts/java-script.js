@@ -122,19 +122,19 @@ scrollPrev = scrolled;
 });
 
 
-// var header2 = $('.header-mob'),
-// scrollPrev = 0;
-//
-// $(window).scroll(function() {
-// var scrolled = $(window).scrollTop();
-//
-// if ( scrolled > 100 && scrolled > scrollPrev ) {
-// ('.header-mob')addClass('.out');
-// } else {
-// ('.header-mob')removeClass('.out');
-// }
-// scrollPrev = scrolled;
-// });
+var header2 = $('.header-mob'),
+scrollPrev2 = 0;
+
+$(window).scroll(function() {
+var scrolled2 = $(window).scrollTop();
+
+if ( scrolled2 > 100 && scrolled2 > scrollPrev2 ) {
+header2.addClass('out');
+} else {
+header2.removeClass('out');
+}
+scrollPrev2 = scrolled2;
+});
 
 
 // const cursorRounded = document.querySelector('.rounded');
@@ -658,6 +658,23 @@ $(function () {
              }
 
               });
+
+
+              $('.butticket').click(function () {
+                count += 1;
+                scount += 1;
+              $('h7').html(' ' + count);
+              $('#count-s').html(' ' + scount);
+                $('#card-s').addClass('visible');
+                  $('.cart-count').addClass('visible');
+                  $('#side-cart-btn').addClass('visible');
+                    $('.empty').addClass('noner');
+                if (count == 10) {
+                  $('h7').css("padding-left" , "30%");
+
+                }
+
+                 });
 
 
 

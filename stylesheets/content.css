@@ -803,6 +803,8 @@ border-top: 1px solid black;
 	transform: translateY(-100%);
 }
 
+
+
 .header-mob {
 	display: none;
 }
@@ -1260,6 +1262,10 @@ div.re-in2 {
 .he .he-exp .he-in2 .he-in3 .ie .ie-exp .ie-in2 .ie-in3 .je .je-exp .je-in2 .je-in3 .le .le-exp .le-in2 .le-in3   {
   /* position: relative; */
   display: inline-block;
+}
+
+.le, .le-exp {
+	border-bottom: 1px solid black;
 }
 
 
@@ -1849,6 +1855,7 @@ padding-left: 2rem;
 	justify-content: flex-start;
 	border-top: 1px solid black;
 	padding-right: 8rem;
+	overflow-x: scroll;
 	/* margin-right: 70vw; */
 }
 
