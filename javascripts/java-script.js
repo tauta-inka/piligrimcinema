@@ -186,11 +186,44 @@ $('.close').click(function () {
 // });
 
 
-$( function() {
-    $( "#map1" ).draggable({
-  containment: "yy"
-})
-  } );
+// $( function() {
+//     $( "#map1" ).draggable({
+//   containment: "yy"
+// })
+//   } );
+
+
+  $( function() {
+      $('#ex1').zoom({url: "../img/map2.svg"});
+    } );
+
+//
+//     $(document).ready(function(){
+// $('#ex').zoom();
+// });
+
+
+$(document).ready(function(){
+  $('#ex1').zoom({
+    url: '../img/map2.svg',
+    callback: function(){
+      $(this).colorbox({href: this.src});
+    }
+  });
+});
+
+//   buildDraggable = function() {
+//     $( "#map1" ).draggable({
+//     containment: '#yy',
+//     drag: function(event) {
+//         var top = $(this).position().top;
+//         var left = $(this).position().left;
+//
+//         ICZoom.panImage(top, left);
+//     },
+// });
+
+
 
   $('#learnmore').hover(function () {
     $('#learnmore-circle').toggleClass('visible');

@@ -13,9 +13,18 @@
       <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
       <script src="javascripts/java-script.js" charset="utf-8"></script>
       <script type="text/javascript">
-
       </script>
       <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src='javascripts/jquery.zoom.js'></script>
+      <script>
+    		$(document).ready(function(){
+    			$('#ex1').zoom();
+    			$('#ex2').zoom({ on:'grab' });
+    			$('#ex3').zoom({ on:'click' });
+    			$('#ex4').zoom({ on:'toggle' });
+    		});
+    	</script>
 <!-- <style>
 body {
   overflow-x: hidden;
@@ -104,9 +113,16 @@ body {
 
 <div class="mapp">
   <div class="gline1">  </div>
-  <div class="yy">
+  <!-- <div class="yy">
 
-    <div id="map1"></div></div>
+    <div id="map1"></div></div> -->
+
+    <!-- <span class='zoom' id='ex'>
+<img src="../img/map2.svg" width='555' height='320' alt='Daisy on the Ohoopee'/> -->
+
+<span class='zoom' id='ex2'>
+  <img src='../piligrimcinema/img/map2.png' width='2200' height='1700'/>
+</span>
   <div class="openpath"><div class="arrow4"></div><p class="path">ПОСМОТРЕТЬ МАРШРУТ</p>
 </div>
 

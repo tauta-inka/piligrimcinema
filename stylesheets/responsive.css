@@ -256,7 +256,16 @@ h6 {
 }
 
 }
+@media only screen and (min-width: 1367px) and (max-width: 1919px)
+ {
+   .zoom img {
+   	display: block;
+   	margin-top: -10px;
+    width: 1920px;
+    height: auto;
+   }
 
+ }
 @media only screen and (min-width: 1367px)
  {
 /* hover for desktop */
@@ -292,6 +301,14 @@ and (max-width: 1366px)
   height: 100%;
   width: auto;
   } */
+
+  .zoom img {
+   display: block;
+   margin-top: -10px;
+   width: 1500px;
+   height: auto;
+  }
+
 
 
   #godar1, #highway1, #match1, #zero1, #ny1, #sosedka1, #running1, #breath1, #earth1, #tree1, #noi1, #moby1, #shine1 {
@@ -353,6 +370,14 @@ border-radius: 60px;
 /* iPad Landscape */
 @media only screen and (min-width: 700px)
 and (max-width: 1366px) and (orientation: landscape) {
+
+
+  .zoom img {
+
+   margin-top: 0px;
+
+  }
+
 
   #nubexVideo {
 
@@ -416,6 +441,18 @@ and (max-width: 1366px) and (orientation: landscape) {
 and (max-device-width: 1366px)
 
 and (orientation: portrait) {
+
+
+
+  .zoom img {
+   display: block;
+   margin-top: -10px;
+   margin-left: -200px;
+   width: 1300px;
+   height: auto;
+  }
+
+
 
   #godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
     height: 350px;
@@ -544,6 +581,17 @@ and ( max-device-width: 896px)
 and (min-device-height: 375px)
 and (max-device-height: 416px)
 and (orientation: landscape) {
+
+
+  .zoom img {
+   display: block;
+   margin-top: -10px;
+
+   width: 900px;
+   height: auto;
+  }
+
+
 
   #van1, #tickets {
 background-size: cover;
@@ -937,6 +985,17 @@ and (max-device-width: 416px)
 and ( min-device-height: 809px)
 and ( max-device-height: 896px)
 and (orientation: portrait) {
+
+
+  .zoom img {
+   display: block;
+   margin-top: -10px;
+   margin-left: -100px;
+   width: 900px;
+   height: auto;
+  }
+
+
 
 .items {
   padding-right: 0rem;
@@ -1516,6 +1575,416 @@ overflow-y: hidden!important;
 }
 
 
+@media only screen
+and ( min-device-width: 639px)
+and ( max-device-width: 808px)
+and (min-device-height: 359px)
+and (max-device-height: 415px)
+and (orientation: landscape) {
+
+
+.ae, .be, .ce, .ee, .ge, .he, .ie, .ke, .le {
+height: 62px;
+}
+
+re-exp, .ae-exp, .be-exp, .ce-exp, .de-exp, .ee-exp, .fe-exp, .ge-exp, .he-exp, .ie-exp, .je-exp,
+.ke-exp, .le-exp   {
+  /* height: 250px; */
+	height: auto;
+	padding-bottom: 1.5rem;
+}
+
+  .zoom img {
+   display: block;
+
+  margin-left: -100px;
+   width: 900px;
+   height: auto;
+  }
+
+
+  #van1, #tickets {
+background-size: cover;
+    height: 65vh;
+    width: 64vw;
+}
+
+#hall1 {
+      height: 76vh;
+      width: 64vw;
+      background-size: cover;
+}
+
+#f2 {
+  width: 53vw;
+    height: 61vh;
+    background-size: cover;
+}
+
+#f1 {
+  width: 35vw;
+height: 51vh;
+background-size: cover;
+}
+
+#fl2, #tent1, #tent2, #tent3 {
+  height: 77vh;
+  width: 64vw;
+  background-size: cover;
+}
+
+.quote {
+  text-indent: 33vw;
+}
+
+
+.icontainer {
+
+  padding-right: 0;
+}
+
+.section {
+  width: 100vw;
+}
+
+.scroll-section, #tickets  {
+  width: 65vw;
+}
+  #nubexVideo {
+      filter: grayscale(100%);
+      min-height: 100%;
+      max-width: 100%;
+  }
+  .about {
+    width: 32vw;
+height: 18vh;
+  }
+
+  .afisha {
+    width: 32vw;
+height: 18vh;
+  }
+
+
+.map {
+  width: 32vw;
+height: 20vh;
+}
+
+.tablichka {
+  top: 7rem;
+}
+
+  .m2 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+
+  }
+
+  .mainmenu {
+    font-size: 1.5rem;
+  }
+  .a {
+    padding-top: 6vh;
+}
+
+.b {
+    padding-top: 6vh;
+}
+
+.before-p {
+  width: 34vw;
+}
+
+  #car1, #car2, #sign1, #sign2 {
+display: none!important;
+overflow-x: hidden!important;
+overflow-y: hidden!important;
+
+
+  }
+
+  .mob-nav-wrap {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    z-index: 9998;
+  }
+
+  .m3 {
+  width: 180px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+  #logo2 {
+    position: relative;
+    background-image: url("../img/logo2.png");
+  background-size: contain;
+  width: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+  }
+  .burger {
+    position: relative;
+    background-image: url("../img/burger.png");
+  background-size: contain;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  margin-left: 1.45rem;
+  margin-top: 1.4rem;
+  }
+
+  .closed {
+    background-image: url("../img/closee.png");
+    width: 42px;
+    height: 42px;
+    margin-left: 1.2rem;
+    margin-top: 1.2rem;
+  }
+
+
+
+  .opened-mob-menu {
+    display: block;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 400;
+    padding-top: 4.8rem;
+  }
+
+  .punkt {
+    font-family: 'fugue_regular', sans-serif;
+    font-size: 2rem;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+  }
+
+  #menu {
+    margin-right: 0.5rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5px;
+    width: 80px;
+   height: 80px;
+   margin-top: 1px;
+   background-color: white;
+   border-radius: 50%;
+   border: 1px solid black;
+   z-index: 9999;
+  }
+
+  #menu:active {
+    background-color: black;
+  }
+
+  #menu:active > div{
+    filter: invert(100%);
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header-mob {
+    display: block;
+
+    	overflow-y: hidden;
+    	overflow-x: hidden;
+    	z-index: 500;
+    	position: fixed;
+    	top: 0; left: 0;
+    	width: 100%;
+    	transition: all .3s ease;
+
+  }
+
+  .out {
+  	transform: translateY(-100%);
+  }
+
+
+h1 {
+  font-size: 4rem;
+}
+
+.s2 {
+    padding-top: 43vh;}
+
+    .main-p {
+    width: 59vw;}
+
+
+    .another-h4 {
+        font-size: 1.2rem;}
+
+        .s4 {
+            padding-top: 47vh;}
+
+.s1{
+  margin-top: -2rem;
+}
+
+.openpath {
+width: 42vw;
+padding-bottom: 3vh;
+padding-top: 4vh;
+padding-left: 3vw;}
+
+
+
+.titleblock2  {
+  height: 19vh;
+}
+
+.titleblock {
+  height: 26vh;
+}
+.titleblock2  > h1 {
+  margin-top: -2rem;
+}
+
+.titleblock  > h1 {
+  margin-top: -2rem;
+}
+
+.titleblock3  > h1 {
+  margin-top: -2rem;
+}
+
+.scale {
+  height: 69vh;
+    width: 39vw;
+}
+.merch-title {
+width: 39vw;
+}
+.more {
+
+margin-left: -0.2rem;}
+
+#learnmore-circle, #learnmore-circle-2, #learnmore-circle-3, #learnmore-circle-4 {
+  display: inline-block;}
+
+
+  .item-mt {
+      font-size: 1.5rem;}
+
+      #mob-side-cart {
+        position: relative;
+
+        width: 80px;
+       height: 80px;
+
+       background-color: white;
+       border-radius: 50%;
+       border: 1px solid black;
+      }
+
+
+
+      .cart-count {
+      	width: 30px;
+      	height: 30px;
+      	border-radius: 50%;
+      	position: absolute;
+      	bottom: 0px;
+      	right: 0px;
+      	background-color: black;
+      display: none;
+
+      }
+
+      .info-block {
+        padding-top: 5vh;
+      }
+
+
+      .info-h4 {
+    width: 27vw;
+    padding-top: 0.5rem;
+    font-size: 14px;
+}
+
+
+.info-h1 {
+  font-size: 60px;
+      width: 31vw;
+}
+
+.size-block {
+    padding-top: 1rem;
+}
+
+.size-selector {
+width: 90px;
+    height: 28px;}
+
+.price-block {
+        padding-top: 1rem;
+    }
+
+.large-btn {
+
+        line-height: 92px;
+
+        height: 92px;
+        width: 316px;}
+
+#to-cart1 {
+  font-size: 0.8rem;}
+
+
+
+.back-circle {
+width: 80px;
+height: 80px;
+}
+
+.price-block > h6 {
+  margin-right: 0.8rem;
+}
+
+
+.re-in2 > h4, .ae-in2 > h4, .be-in2 > h4, .ce-in2 > h4, .de-in2 > h4, .ee-in2 > h4, .fe-in2 > h4, .ge-in2 > h4, .he-in2 > h4,
+ .ie-in2 > h4, .je-in2 > h4, .ke-in2 > h4, .le-in2 > h4   {
+width: 40vw;
+}
+
+.re-in2 > h3, .ae-in2 > h3, .be-in2 > h3, .ce-in2 > h3, .de-in2 > h3, .ee-in2 > h3, .fe-in2 > h3, .ge-in2 > h3, .he-in2 > h3,
+ .ie-in2 > h3, .je-in2 > h3, .ke-in2 > h3, .le-in2 > h3   {
+  width: 40vw;
+}
+
+.cart{
+padding-top: 30vh;}
+
+#godar2, #highway2, #match2, #zero2, #ny2, #sosedka2, #running2, #breath2, #earth2, #tree2, #noi2, #moby2, #shine2 {
+
+    height: 323px;
+
+}
+
+
+}
+
+
 /* Android small */
 
 @media only screen
@@ -1524,6 +1993,15 @@ and ( max-device-width: 415px)
 and (min-device-height: 639px)
 and (max-device-height: 808px)
 and (orientation: portrait) {
+
+  .zoom img {
+   display: block;
+
+margin-left: -100px;
+   width: 700px;
+   height: auto;
+  }
+
 
   .items {
     padding-right: 0rem;

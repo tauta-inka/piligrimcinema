@@ -10,6 +10,5 @@ font-weight: normal;
 @font-face {
 font-family: 'fugue_regular';
 src: url('../fonts/fugue_regular.otf') format('truetype');
-font-style: normal;
-font-weight: normal;
+
 }
