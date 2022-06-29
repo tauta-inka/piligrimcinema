@@ -193,24 +193,24 @@ $('.close').click(function () {
 //   } );
 
 
-  $( function() {
-      $('#ex1').zoom({url: "../img/map2.svg"});
-    } );
+  // $( function() {
+  //     $('#ex1').zoom({url: "../img/map2.svg"});
+  //   } );
 
 //
 //     $(document).ready(function(){
 // $('#ex').zoom();
 // });
 
-
-$(document).ready(function(){
-  $('#ex1').zoom({
-    url: '../img/map2.svg',
-    callback: function(){
-      $(this).colorbox({href: this.src});
-    }
-  });
-});
+// 
+// $(document).ready(function(){
+//   $('#ex1').zoom({
+//     url: '../img/map2.svg',
+//     callback: function(){
+//       $(this).colorbox({href: this.src});
+//     }
+//   });
+// });
 
 //   buildDraggable = function() {
 //     $( "#map1" ).draggable({
