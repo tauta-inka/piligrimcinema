@@ -578,6 +578,10 @@ padding-top: 5vh;
   width: 44vw;
 }
 
+.footer {
+  margin-top: 8rem;
+}
+
 }
 
 /* iPhone Landscape */
@@ -1483,10 +1487,10 @@ display: flex;
     z-index: 50;
     right: 0;
 padding-left: 1rem;
-    top: 500px;
+
     width: 100vw;
   height: 247px;
-top: 450px;
+top: 536px;
 padding-top: 6vh;
 align-items: flex-start;}
 
@@ -1576,7 +1580,13 @@ overflow-y: hidden!important;
 
   }
 
+  .titleblock {
+    height: 9vh;
+  }
 
+  .titleblock2 {
+    height: 9vh;
+  }
 
 }
 
